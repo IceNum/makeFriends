@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:background="@drawable/bg_border_main_1dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="单月套餐"
+            android:textColor="@color/txt_lv6"
+            android:textSize="@dimen/txt_size_16"/>
+        <TextView
+            android:id="@+id/tv_yj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_10"
+            android:layout_below="@+id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/txt_lv1"
+            android:text="原价：¥188"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_main_deep"
+                android:text="现价:¥ "/>
+            <TextView
+                android:id="@+id/tv_xj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="88"
+                android:layout_toRightOf="@+id/tv_now"
+                android:textColor="@color/txt_main_deep"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/vip30"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

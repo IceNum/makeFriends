@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.people.loveme"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 101
+        versionName "1.0.1"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        ndk {
+            //设置支持的so库架构
+            abiFilters "armeabi"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g" // 2g should be also OK
+    }
+
+    compileOptions {
+        encoding "UTF-8"
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'lxkj'
+            keyPassword '123456'
+            storeFile file('new_people_love.jks')
+            storePassword '123456'
+        }
+        debug {
+            keyAlias 'lxkj'
+            keyPassword '123456'
+            storeFile file('new_people_love.jks')
+            storePassword '123456'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.0.2'
+    implementation 'com.android.support:design:27+'
+    implementation 'com.android.support:multidex:'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.2.0'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    //    apt 'com.jakewharton:butterknife-compiler:8.4.0' //studio3.0以后做如下修改
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    //XTabLayout
+    implementation 'com.androidkun:XTabLayout:1.1.3'
+    //dialog
+//    implementation 'com.github.hss01248:DialogUtil:2.0.2'
+    implementation project(':dialog')
+    //bar
+    implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+    //权限管理
+    annotationProcessor 'com.zhy:mpermission-compiler:1.0.0'
+    implementation 'com.zhy:mpermission-api:1.0.0'
+    //图片压缩
+    implementation 'top.zibin:Luban:1.1.5'
+    implementation 'com.android.support:exifinterface:27.1.1'
+    //九宫格图片
+    implementation 'com.lzy.widget:ninegridview:0.2.0'
+    //时间选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.6'
+    //banner
+    implementation 'cn.bingoogolapple:bga-banner:2.2.4@aar'
+    //刷新加载
+    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    //二维码扫描
+    implementation 'com.mylhyl:zxingscanner:2.1.1'
+    //分类
+    implementation 'me.majiajie:pager-bottom-tab-strip:2.2.5'
+    //圆角弹框
+    implementation 'com.mylhyl:circleDialog:2.6.6'
+    //图片选择
+    implementation 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    //流布局
+    implementation 'com.hyman:flowlayout-lib:1.1.2'
+    implementation 'com.contrarywind:wheelview:4.0.8'
+    //刷新加载
+    implementation 'cn.bingoogolapple:bga-refreshlayout:1.1.8@aar'
+    implementation 'com.github.devlight:infinitecycleviewpager:1.0.2'
+    //版本更新
+    implementation 'com.allenliu.versionchecklib:library:2.1.9'
+    implementation project(':snapupdowntimerview')
+    implementation files('libs/SecurityEnvSDK-release-1.1.0.jar')
+    implementation project(':CallKit')
+    implementation project(':CallLib')
+    implementation project(':IMKit')
+    implementation project(':IMLib')
+    implementation 'com.android.support:multidex:'
+    implementation files('libs/alipaySdk-20180601.jar')
+    //    implementation files('libs/libammsdk.jar')
+    implementation files('libs/jpush-android-3.1.7.jar')
+    implementation files('libs/jcore-android-1.2.6.jar')
+    implementation 'com.zhy:magic-viewpager:1.0.1'
+    implementation files('libs/Amap_2DMap_V5.2.0_20170627.jar')
+    implementation files('libs/AMap_Channel_Location_V1.4.0_20160708.jar')
+    implementation files('libs/AMap_Location_V4.6.0_20190423.jar')
+}

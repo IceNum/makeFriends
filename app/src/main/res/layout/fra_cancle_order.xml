@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/lv_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shap_rect_round_com_5dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_round_red_100dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="@string/wo_queding"/>
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="272dp"
+        android:layout_height="380dp"
+        android:orientation="vertical"
+        android:background="@mipmap/erweima"
+        android:gravity="center_horizontal"
+      >
+        <com.people.loveme.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_head"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_lv7"
+            android:layout_margin="5dp"
+            android:text="@string/wo_nicheng"/>
+        <TextView
+            android:id="@+id/tv_jf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xyf"
+            android:text="0分"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="18dp"
+            android:gravity="right|center_vertical"
+            android:textSize="8sp"/>
+
+        <ImageView
+            android:id="@+id/iv_ewm"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_margin="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_12"
+                android:text="下载"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="“回眸”"
+                android:textSize="@dimen/txt_size_12"
+                android:textColor="@color/txt_main"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_12"
+                android:text="APP，使用“扫一扫”"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_12"
+            android:text="@string/wo_xiangxiziliao"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/close"/>
+
+</LinearLayout>

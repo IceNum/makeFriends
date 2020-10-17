@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_shop"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_shopName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_17"
+                android:textColor="@color/txt_lv6"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:text="@string/shopname"/>
+            <TextView
+                android:id="@+id/tv_shopDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopintro"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@color/txt_lv2"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:textSize="@dimen/txt_size_12"
+            android:textColor="@color/txt_lv1"
+            android:layout_marginTop="18dp"/>
+    </LinearLayout>
+
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="1px"
+       android:background="@color/space"/>
+
+</LinearLayout>

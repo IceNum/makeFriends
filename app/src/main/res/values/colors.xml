@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_light">#F8F8F8</color>
+    <color name="main_color">#ffffff</color>
+    <color name="gg">#F54923</color>
+    <color name="gg_content">#FC195E</color>
+    <color name="translucent">#00000000</color>
+    <color name="attention">#F87807</color>
+    <color name="addcar">#FB6B7F</color>
+    <color name="buynow">#EC1D3A</color>
+    <color name="huiyuan">#FFDE00</color>
+    <color name="bg_main">#C5AB74</color>
+    <color name="xzdt">#55B0FF</color>
+
+    <color name="tag_age">#F4A158</color>
+    <color name="tag_address">#AEC7F2</color>
+    <color name="tag_shengao">#FEB3C5</color>
+    <color name="tag_xueli">#F4B758</color>
+    <color name="tag_shouru">#AEC7F2</color>
+    <color name="sure">#7AABD5</color>
+    <color name="qrz">#FAA531</color>
+    <color name="bg_edt">#FAFAFA</color>
+    <color name="surecolor">#0FBAE4</color>
+
+    <color name="txt_lv1">#9A9A9A</color>
+    <color name="txt_lv2">#666666</color>
+    <color name="txt_lv3">#4D4D4D</color>
+    <color name="txt_lv4">#444444</color>
+    <color name="txt_lv5">#292929</color>
+    <color name="txt_lv6">#1A1A1A</color>
+    <color name="txt_lv7">#000000</color>
+    <color name="txt_main">#D1B27B</color>
+    <color name="txt_home_light">#9A9A9A</color>
+    <color name="txt_main_deep">#A78446</color>
+
+    <color name="vip">#F3D58F</color>
+    <color name="tag">#AEC7F2</color>
+
+    <color name="register">#FE4E11</color>
+    <color name="xieyi">#2A98FF</color>
+
+    <color name="bg_search">#F5F5F5</color>
+
+    <color name="price">#EB2932</color>
+    <color name="bg_price">#FFE5EA</color>
+    <color name="bg_good_tg">#FFF1EB</color>
+    <color name="bg_yhq">#FFF9F4</color>
+    <color name="border">#FCE6C5</color>
+    <color name="go_pay">#FF7200</color>
+    <color name="go_pay_car">#FF5500</color>
+    <color name="star">#FFA311</color>
+
+    <color name="bg_border">#E6E6E6</color>
+    <color name="remind">#FF5500</color>
+
+    <color name="buy">#FF6000</color>
+
+    <color name="line">#E6E6E6</color>
+    <color name="space">#F4F4F4</color>
+    <color name="border_et">#cccccc</color>
+    <color name="btn_orange">#EF5936</color>
+
+    <color name="main_start">#4FB536</color>
+    <color name="main_end">#029A4D</color>
+
+    <color name="menu_item_normal_bg">#FFFFFFFF</color>
+    <color name="menu_item_press_bg">#d6d2d3</color>
+    <color name="menu_item_divider_color">#d6d2d3</color>
+    <color name="menu_item_text_color">#FFFF4081</color>
+</resources>

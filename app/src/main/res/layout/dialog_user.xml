@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/shap_rect_round_com_5dp">
+    <TextView
+        android:id="@+id/tv_yltx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/txt_lv6"
+        android:padding="10dp"
+        android:drawableRight="@mipmap/ic_more"
+        android:text="预览我的主页"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line"/>
+    <TextView
+        android:id="@+id/tv_ghtx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_lv6"
+        android:drawableRight="@mipmap/ic_more"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="更换头像"/>
+</LinearLayout>

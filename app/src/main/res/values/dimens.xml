@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_h">40dp</dimen>
+    <dimen name="tab_bottom_h">48dp</dimen>
+    <dimen name="divider_line">1dp</dimen>
+    <dimen name="divider_lvl_1">3dp</dimen>
+    <dimen name="divider_lvl_2">5dp</dimen>
+    <dimen name="divider_lvl_3">10dp</dimen>
+    <dimen name="divider_lvl_4">15dp</dimen>
+    <dimen name="txt_size_1">18sp</dimen>
+    <dimen name="txt_size_2">16sp</dimen>
+    <dimen name="txt_size_3">14sp</dimen>
+    <dimen name="txt_size_4">12sp</dimen>
+    <dimen name="txt_size_5">10sp</dimen>
+    <dimen name="txt_size_6">8sp</dimen>
+    <dimen name="txt_size_7">13sp</dimen>
+
+    <dimen name="txt_title">18sp</dimen>
+    <dimen name="txt_size_10">10sp</dimen>
+    <dimen name="txt_size_11">11sp</dimen>
+    <dimen name="txt_size_12">12sp</dimen>
+    <dimen name="txt_size_13">13sp</dimen>
+    <dimen name="txt_size_14">14sp</dimen>
+    <dimen name="txt_size_15">15sp</dimen>
+    <dimen name="txt_size_16">16sp</dimen>
+    <dimen name="txt_size_17">17sp</dimen>
+
+    <dimen name="view_height">1dp</dimen>
+
+    <dimen name="popupwindow_content_width">120dp</dimen>
+    <dimen name="popupwindow_menu_item_height">45dp</dimen>
+    <dimen name="popupwindow_menu_item_divider_height">1px</dimen>
+
+</resources>

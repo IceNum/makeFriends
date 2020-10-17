@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@mipmap/ic_xuanze" />
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/iv_select"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_defaut" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:layout_toRightOf="@id/iv_img">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="名字"
+                android:textColor="@color/txt_lv6"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_heavy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_alignLeft="@id/tv_name"
+                android:paddingTop="7dp"
+                android:text="500g/袋"
+                android:textColor="@color/txt_lv2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvPriceNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_heavy"
+                android:layout_marginLeft="7dp"
+                android:paddingTop="7dp"
+                android:paddingRight="4dp"
+                android:text="￥130.00"
+                android:textColor="@color/price"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_real_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_lv2"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/tvPriceNew"
+                android:text="x1"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- 以下都是侧滑菜单的内容依序排列 -->
+
+
+
+

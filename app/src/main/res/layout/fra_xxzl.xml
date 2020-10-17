@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/space"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/xiangxiziliao"
+                    android:drawablePadding="10dp"
+                    android:gravity="right"
+                    android:text="@string/wo_xiangxiziliao"
+                    android:textColor="@color/txt_lv7"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="购车情况"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_cgqk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:visibility="gone"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="购房情况"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_gfqk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_tizhong"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/et_tz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/wo_qingshuru"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:text=""
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="@dimen/txt_size_14" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kg"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_minzu"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_mz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_jiguan"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_jg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_youwuzinv"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_ywzn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_zongjiao"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_zjxy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_xingzuo"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_xz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wo_shuxiang"
+                    android:textColor="@color/txt_lv2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_sx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/ic_xiala"
+                    android:text="@string/wo_qingxuanze"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/txt_lv2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

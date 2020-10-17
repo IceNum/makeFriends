@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/shap_rect_round_com_5dp">
+    <TextView
+        android:id="@+id/tv_jb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_lv6"
+        android:drawableRight="@mipmap/ic_jb"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="举报"/>
+</LinearLayout>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>action</item>
+        <item>adventure</item>
+        <item>combat</item>
+        <item>moba</item>
+        <item>other</item>
+        <item>role</item>
+        <item>sports</item>
+        <item>words</item>
+
+    </string-array>
+
+    <string-array name="icons">
+        <item>action</item>
+        <item>adventure</item>
+        <item>combat</item>
+        <item>moba</item>
+        <item>other</item>
+        <item>role</item>
+        <item>sports</item>
+        <item>words</item>
+
+    </string-array>
+
+    <string-array name="jblx">
+        <item>شەھۋانىي سودا</item>
+        <item>باش سۈرەت، ماتېرىياللارنى ساختا ياساش ياكى سۈيىئىستېمال قىلىش</item>
+        <item>توي ھاۋالىسى، تاماق ھاۋالىسى، زىياپەت ھاۋالىسى</item>
+        <item>ئاۋارە قىلىدىغان ئېلانلار</item>
+        <item>ئالدامچىلىق بايلىقى، ساختا مۇكاپات ئۇچۇرلىرى</item>
+        <item>باشقىلار</item>
+    </string-array>
+
+    <string-array name="bgxq">
+        <item>ئوبراز</item>
+        <item>خىزمەت ساھەسى</item>
+        <item>تۇرمۇش، مۇھەببەت، توي ھالىتى</item>
+        <item>ماتېرىيالنىڭ چىنلىقى</item>
+        <item>باشقىلار</item>
+    </string-array>
+
+    <string-array name="dopeople">
+        <item>قارا تىزىملىككە كىرگۈزۈۋېتىش</item>
+        <item>پاش قىلىش</item>
+    </string-array>
+
+    <string-array name="tag">
+        <item>ئىتقا ئامراق</item>
+        <item>كىنو كۆرۈش</item>
+        <item>كوچا ئايلىنىش</item>
+        <item>تاماق</item>
+        <item>ساياھەت</item>
+        <item>ناخشا ئېيتىش</item>
+        <item>كىتاب ئوقۇش</item>
+        <item>مۇزىكا</item>
+        <item>ئۇسسۇل ئويناش</item>
+        <item>تەنھەرىكەت</item>
+        <item>فوتوگرافىيە</item>
+        <item>باشقىلار</item>
+    </string-array>
+
+    <string-array name="shengao">
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>185</item>
+        <item>186</item>
+        <item>187</item>
+        <item>188</item>
+        <item>189</item>
+        <item>190</item>
+        <item>191</item>
+        <item>192</item>
+        <item>193</item>
+        <item>194</item>
+        <item>195</item>
+        <item>196</item>
+        <item>197</item>
+        <item>198</item>
+        <item>199</item>
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>206</item>
+        <item>207</item>
+        <item>208</item>
+        <item>209</item>
+        <item>210</item>
+    </string-array>
+
+    <string-array name="sr">
+        <item>2000يۈەندىن تۆۋەن</item>
+        <item>2000يۈەندىن 4000 يۈەنگىچە</item>
+        <item>4000يۈەندىن 6000 يۈەنگىچە</item>
+        <item>6000يۈەندىن 10 مىڭ يۈەنگىچە</item>
+        <item>10مىڭ يۈەندىن 15 مىڭ يۈەنگىچە</item>
+        <item>15مىڭ يۈەندىن 20 مىڭ يۈەنگىچە</item>
+        <item>20مىڭ يۈەندىن 50 مىڭ يۈەنگىچە</item>
+        <item>50مىڭ يۈەندىن يۇقىرى</item>
+    </string-array>
+
+    <string-array name="income">
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>50000</item>
+    </string-array>
+
+    <string-array name="xl">
+        <item>تولۇقسىز ئوتتۇرا</item>
+        <item>تولۇق ئوتتۇرا</item>
+        <item>ئالىي تېخنىكۇم</item>
+        <item>تولۇق كۇرس</item>
+        <item>ماگىستىر</item>
+        <item>دوكتۇر</item>
+    </string-array>
+
+    <string-array name="xls">
+        <item>تولۇقسىز ئوتتۇرا ۋە ئۇنىڭدىن يۇقىرى</item>
+        <item>تولۇق ئوتتۇرا ۋە ئۇنىڭدىن يۇقىرى</item>
+        <item>ئالىي تېخنىكۇم ۋە ئۇنىڭدىن يۇقىرى</item>
+        <item>تولۇق كۇرس ۋە ئۇنىڭدىن يۇقىرى</item>
+        <item>ماگىستىر ۋە ئۇنىڭدىن يۇقىرى</item>
+        <item>دوكتۇر ۋە ئۇنىڭدىن يۇقىرى</item>
+    </string-array>
+
+    <string-array name="hy">
+        <item>ئالاقە/ئىنتېرنېت/كومپيۇتېر</item>
+        <item>كەسپىي ئورۇن/مەمۇر</item>
+        <item>ئوقۇتقۇچى</item>
+        <item>دوختۇر</item>
+        <item>سېسترا</item>
+        <item>ئايروپىلان خادىمى</item>
+        <item>ياسىمىچىلىق/ھۈنەر-سەنئەت/ھاسىل قىلىش</item>
+        <item>يەككە تىجارەت/مۇلازىمەت كەسپى/سودا</item>
+        <item>سۇغۇرتا/مەبلەغ سېلىش/بانكا/پۇل مۇئامىلە</item>
+        <item>تاراتقۇ/ئېلان/مەدەنىيەت</item>
+        <item>ئويۇن/سەنئەت/كۆڭۈل ئېچىش</item>
+        <item>قانۇن مۇلازىمىتى/ئادۋوكات</item>
+        <item>باشقۇرۇش مەسلىھەتچىلىكى/تەربىيەلەش/مائارىپ</item>
+        <item>مۈلۈك/ئۆي-زېمىن/قۇرۇلۇش</item>
+        <item>قاتناش ئەشيا ئوبوروتى/سودا/ئىستېمال پارچە سېتىش</item>
+        <item>مېھمانخانا، ساياھەت</item>
+        <item>زامانىۋى يېزا ئىگىلىكى</item>
+        <item>ئوقۇۋاتقان ئوقۇغۇچىلار</item>
+    </string-array>
+
+    <string-array name="xz">
+        <item>توي قىلىش ئوبيېكتى</item>
+        <item>مەشۇق</item>
+        <item>ئادەتتىكى دوست</item>
+        <item>ئۆزى بىلىش</item>
+    </string-array>
+
+    <string-array name="hyzk">
+        <item>توي قىلمىغان</item>
+        <item>توي قىلغان</item>
+        <item>ئاجراشقان</item>
+    </string-array>
+
+    <string-array name="gcqk">
+        <item>چەكلەنمەيدۇ</item>
+        <item>ماشىنا سېتىۋالغان</item>
+    </string-array>
+
+    <string-array name="lasttime">
+        <item>بىر سائەت</item>
+        <item>بۈگۈن</item>
+        <item>ئۈچ كۈن</item>
+        <item>چەكلەنمەيدۇ</item>
+    </string-array>
+
+    <string-array name="score">
+        <item>چەكلەنمەيدۇ</item>
+        <item>60نومۇردىن يۇقىرى</item>
+        <item>70نومۇردىن يۇقىرى</item>
+        <item>80نومۇردىن يۇقىرى</item>
+        <item>100نومۇردىن يۇقىرى</item>
+    </string-array>
+
+
+    <string-array name="mz">
+        <item>خەنزۇ</item>
+        <item>موڭغۇل</item>
+        <item>خۇيزۇ</item>
+        <item>زاڭزۇ</item>
+        <item>ئۇيغۇر</item>
+        <item>مياۋزۇ</item>
+        <item>يىزۇ</item>
+        <item>جۇاڭزۇ</item>
+        <item>بۇيىزۇ</item>
+        <item>چاۋشيەنزۇ</item>
+        <item>دۇڭزۇ</item>
+        <item>ياۋزۇ</item>
+        <item>بەيزۇ</item>
+        <item>تۇجيازۇ</item>
+        <item>خانى</item>
+        <item>قازاق</item>
+        <item>دەيزۇ</item>
+        <item>لىزۇ</item>
+        <item>لىسۇ</item>
+        <item>ۋازۇ</item>
+        <item>شېزۇ</item>
+        <item>گاۋشەن</item>
+        <item>لاخۇ</item>
+        <item>شۇيزۇ</item>
+        <item>دۇڭشياڭ</item>
+        <item>ناشى</item>
+        <item>جىڭپو</item>
+        <item>قىرغىز</item>
+        <item>تۇزۇ</item>
+        <item>داغۇر</item>
+        <item>مۇلاۋ</item>
+        <item>چياڭزۇ</item>
+        <item>بۇلاڭ</item>
+        <item>سالا</item>
+        <item>ماۋنەن</item>
+        <item>گېلاۋ</item>
+        <item>شىبە</item>
+        <item>ئاچاڭ</item>
+        <item>پۇمى</item>
+        <item>تاجىك</item>
+        <item>نۇزۇ</item>
+        <item>ئۆزبېك</item>
+        <item>رۇس</item>
+        <item>دېئاڭ</item>
+        <item>ئېۋېنكې</item>
+        <item>باۋئەن</item>
+        <item>يۈگۇ</item>
+        <item>جىڭزۇ</item>
+        <item>تاتار</item>
+        <item>دۇلۇڭ</item>
+        <item>ئېلۇنچۇن</item>
+        <item>خېجې</item>
+        <item>مېنبا</item>
+        <item>لوبا</item>
+        <item>جىنو</item>
+    </string-array>
+
+    <string-array name="ywzn">
+        <item>无子女</item>
+        <item>有子女</item>
+    </string-array>
+
+    <string-array name="zjxy">
+        <item>دىنىي ئېتىقادى يوق</item>
+        <item>خىرىستىيان دىنى</item>
+        <item>ئىسلام دىنى</item>
+        <item>بۇددا دىنى</item>
+        <item>يەھۇدىي دىنى</item>
+        <item>ئىلاھىيەت دىنى</item>
+        <item>شامان دىنى</item>
+        <item>ھىندى دىنى</item>
+        <item>كۇڭزى تەلىماتى</item>
+        <item>داۋجياۋ دىنى</item>
+        <item>باشقا مەزھەپلەر</item>
+    </string-array>
+
+    <string-array name="xingzuo">
+        <item>ھەمەل يۇلتۇز تۈركۈمى</item>
+        <item>سەۋر يۇلتۇز تۈركۈمى</item>
+        <item>جەۋزا يۇلتۇز تۈركۈمى</item>
+        <item>سەراتان يۇلتۇز تۈركۈمى</item>
+        <item>ئەسەد يۇلتۇز تۈركۈمى</item>
+        <item>ۋىرگو يۇلتۇز تۈركۈمى</item>
+        <item>مىزان يۇلتۇز تۈركۈمى</item>
+        <item>ئەقرەب يۇلتۇز تۈركۈمى</item>
+        <item>قەۋس يۇلتۇز تۈركۈمى</item>
+        <item>كاپرىكورنۇس يۇلتۇز تۈركۈمى</item>
+        <item>دەلۋە يۇلتۇز تۈركۈمى</item>
+        <item>ھوت يۇلتۇز تۈركۈمى</item>
+    </string-array>
+
+    <string-array name="shuxiang">
+        <item>چاشقان</item>
+        <item>كالا</item>
+        <item>يولۋاس</item>
+        <item>توشقان</item>
+        <item>ئەجدىھا</item>
+        <item>يىلان</item>
+        <item>ئات</item>
+        <item>قوي</item>
+        <item>مايمۇن</item>
+        <item>توخۇ</item>
+        <item>ئىت</item>
+        <item>چوشقا</item>
+    </string-array>
+
+
+    <string-array name="lazt">
+        <item>دوست ئىزدەۋاتىمەن</item>
+        <item>ئۇچرىشىپ تۇرۇۋاتىمەن</item>
+        <item>كۆڭلۈمدىكى ئادەمنى تاپتىم</item>
+    </string-array>
+
+
+
+</resources>

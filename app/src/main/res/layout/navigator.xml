@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_h"
+                android:background="@color/white">
+
+    <TextView
+        android:id="@+id/navi_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/txt_lv4"
+        android:textSize="@dimen/txt_title"/>
+
+    <ImageView
+        android:id="@+id/navi_left"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:scaleType="center"
+        android:src="@mipmap/ic_back"/>
+
+    <TextView
+        android:id="@+id/navi_left_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/navi_left"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="@string/cancel"
+        android:textColor="@color/txt_lv3"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/navi_right_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:textColor="@color/txt_main"
+        android:textSize="@dimen/txt_size_3"
+        />
+
+    <ImageView
+        android:id="@+id/navi_right_img1"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_alignLeft="@+id/navi_right_img"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp" />
+
+    <ImageView
+        android:id="@+id/navi_right_img"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
