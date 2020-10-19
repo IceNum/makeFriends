@@ -31,6 +31,6 @@
             android:paddingBottom="10dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/bg_rect_sure_5d"
-            android:text="@string/wo_queding"/>
+            android:text="@string/confirm"/>
     </LinearLayout>
 </LinearLayout>

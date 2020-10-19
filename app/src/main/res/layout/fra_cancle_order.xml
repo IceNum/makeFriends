@@ -22,7 +22,7 @@
         android:background="@drawable/shap_round_red_100dp"
         android:textColor="@color/white"
         android:layout_margin="10dp"
-        android:text="@string/wo_queding"/>
+        android:text="@string/confirm"/>
 
 
 </LinearLayout>

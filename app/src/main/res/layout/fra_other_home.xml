@@ -401,7 +401,7 @@
                 android:drawablePadding="5dp"
                 android:drawableTop="@mipmap/dazhaohu"
                 android:gravity="center"
-                android:text="打招呼"
+                android:text="@string/dazhaohu"
                 android:textColor="@color/white"
                 android:textSize="@dimen/txt_size_12" />
 
@@ -440,7 +440,7 @@
                 android:drawablePadding="5dp"
                 android:drawableTop="@mipmap/shang_white"
                 android:gravity="center"
-                android:text="送礼物"
+                android:text="@string/sendgift"
                 android:textColor="@color/white"
                 android:textSize="@dimen/txt_size_12" />
         </LinearLayout>

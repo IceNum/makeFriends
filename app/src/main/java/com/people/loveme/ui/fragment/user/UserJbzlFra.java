@@ -168,7 +168,7 @@ public class UserJbzlFra extends TitleFragment implements View.OnClickListener, 
         switch (view.getId()) {
             case R.id.tv_sg:
                 sg = Arrays.asList(getResources().getStringArray(R.array.shengao));
-                SingleChooseDialog sgChooseDialog = new SingleChooseDialog(mContext, mContext.getString(R.string.wo_shengao), sg, new SingleChooseDialog.OnItemClick() {
+                SingleChooseDialog sgChooseDialog = new SingleChooseDialog(mContext, mContext.getString(R.string.height), sg, new SingleChooseDialog.OnItemClick() {
                     @Override
                     public void onItemClick(int position) {
                         stature = sg.get(position);

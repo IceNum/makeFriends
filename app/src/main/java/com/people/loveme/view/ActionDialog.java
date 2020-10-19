@@ -99,8 +99,8 @@ public class ActionDialog extends Dialog {
         TextView dialog_right = (TextView) view.findViewById(R.id.dialog_action_confirm);
 
         dialog_title.setText(title);
-        dialog_left.setText("取消");
-        dialog_right.setText(context.getString(R.string.wo_queding));
+        dialog_left.setText(context.getString(R.string.cancel));
+        dialog_right.setText(context.getString(R.string.confirm));
 
         dialog_left.setOnClickListener(new View.OnClickListener() {
             @Override

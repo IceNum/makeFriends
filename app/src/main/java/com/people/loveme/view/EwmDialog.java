@@ -147,7 +147,7 @@ public class EwmDialog extends Dialog {
     }
 
     private void showDialog(final View view) {
-        ActionDialog callDialog = new ActionDialog(context, "是否要保存图片到本地？", context.getString(R.string.wo_quxiao), context.getString(R.string.wo_queding));
+        ActionDialog callDialog = new ActionDialog(context, "是否要保存图片到本地？", context.getString(R.string.cancel), context.getString(R.string.confirm));
         callDialog.setOnActionClickListener(new ActionDialog.OnActionClickListener() {
             @Override
             public void onLeftClick() {

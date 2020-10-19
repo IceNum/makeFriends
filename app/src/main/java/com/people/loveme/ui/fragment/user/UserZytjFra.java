@@ -129,7 +129,7 @@ public class UserZytjFra extends TitleFragment implements View.OnClickListener, 
                 cityChooseDialog.show();
                 break;
             case R.id.tv_sg:
-                SgSectionDialog sgSectionDialog = new SgSectionDialog(mContext, mContext.getString(R.string.wo_shengao), new AgeSectionDialog.OnItemClick() {
+                SgSectionDialog sgSectionDialog = new SgSectionDialog(mContext, mContext.getString(R.string.height), new AgeSectionDialog.OnItemClick() {
                     @Override
                     public void onItemClick(String sg) {
                         tvSg.setText(sg);

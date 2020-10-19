@@ -280,7 +280,7 @@ public class MineFra extends CachableFrg implements View.OnClickListener, EventC
     private boolean isCanEnter(String status) {
         switch (status) {  //0审核中   1  已认证  2 审核失败   3未认证
             case "0":
-                ToastUtil.show("审核中");
+                ToastUtil.show(getString(R.string.wo_shenhezhong));
                 return false;
             case "1":
                 ToastUtil.show(getString(R.string.wo_yirenzheng));
@@ -483,7 +483,7 @@ public class MineFra extends CachableFrg implements View.OnClickListener, EventC
                     isSh = true;
                     shadowView.setVisibility(View.VISIBLE);
                     tvShz.setVisibility(View.VISIBLE);
-                    tvShz.setText("审核中");
+                    tvShz.setText(getString(R.string.wo_shenhezhong));
                     Picasso.with(getContext()).load(shBean.getSrc()).placeholder(R.mipmap.ic_logo).error(R.mipmap.ic_logo).into(ivHead);
                     if (!StringUtil.isEmpty(shBean.getSrc()))
                         SharePrefUtil.saveString(getContext(), AppConsts.HEAD, shBean.getSrc());

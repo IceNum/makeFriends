@@ -286,9 +286,9 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
         }
         if (!StringUtil.isEmpty(heightCondition)) {
             params.put("height", heightCondition);
-            tags.add(getString(R.string.wo_shengao) + "：" + heightCondition);
+            tags.add(getString(R.string.height) + "：" + heightCondition);
         } else {
-            tags.add(getString(R.string.wo_shengao) + "：" +  getString(R.string.wo_buxian));
+            tags.add(getString(R.string.height) + "：" +  getString(R.string.wo_buxian));
         }
         setTag();
 
@@ -714,7 +714,7 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
                 cityChooseDialog.show();
                 break;
             case R.id.ll_sg:
-                SgSectionDialog sgSectionDialog = new SgSectionDialog(getContext(), getString(R.string.wo_shengao), new AgeSectionDialog.OnItemClick() {
+                SgSectionDialog sgSectionDialog = new SgSectionDialog(getContext(), getString(R.string.height), new AgeSectionDialog.OnItemClick() {
                     @Override
                     public void onItemClick(String sg) {
                         if (sg.startsWith(getString(R.string.wo_buxian))) {
@@ -944,7 +944,7 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
 
                 tags.clear();
                 tags.add(getString(R.string.wo_age) + "：" +  getString(R.string.wo_buxian));
-                tags.add(getString(R.string.wo_shengao) + "：" +  getString(R.string.wo_buxian));
+                tags.add(getString(R.string.height) + "：" +  getString(R.string.wo_buxian));
                 tags.add(getString(R.string.wo_yueshou) + "：" +  getString(R.string.wo_buxian));
                 homePopupWindow.setAge(getString(R.string.wo_buxian));
                 homePopupWindow.setYsr(getString(R.string.wo_buxian));
@@ -1001,9 +1001,9 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
 
 
         if (!StringUtil.isEmpty(heightShow)) {
-            tags.add(getString(R.string.wo_shengao) + "：" + heightShow);
+            tags.add(getString(R.string.height) + "：" + heightShow);
         } else {
-            tags.add(getString(R.string.wo_shengao) + "：" +  getString(R.string.wo_buxian));
+            tags.add(getString(R.string.height) + "：" +  getString(R.string.wo_buxian));
         }
 
 
@@ -1100,9 +1100,9 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
 
 
         if (!StringUtil.isEmpty(heightCondition)) {
-            tags.add(getString(R.string.wo_shengao) + "："  + heightCondition);
+            tags.add(getString(R.string.height) + "："  + heightCondition);
         } else {
-            tags.add(getString(R.string.wo_shengao) + "：" + getString(R.string.wo_buxian) );
+            tags.add(getString(R.string.height) + "：" + getString(R.string.wo_buxian) );
         }
 
 

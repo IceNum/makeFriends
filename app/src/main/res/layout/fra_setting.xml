@@ -165,7 +165,7 @@
                 android:layout_marginTop="100dp"
                 android:layout_marginBottom="50dp"
                 android:background="@color/white"
-                android:text="@string/wo_tuichudeng"
+                android:text="@string/setting_logout"
                 android:textColor="@color/txt_lv4" />
         </LinearLayout>
     </ScrollView>

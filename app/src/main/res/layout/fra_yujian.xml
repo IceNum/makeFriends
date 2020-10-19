@@ -10,7 +10,7 @@
         android:layout_height="45dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="@string/wo_yujian"
+        android:text="@string/yujian"
         android:textColor="@color/txt_lv7"
         android:textSize="@dimen/rc_dimen_size_18" />
 

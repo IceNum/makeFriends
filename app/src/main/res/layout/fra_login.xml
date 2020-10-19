@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
-            android:hint="请输入手机号码"
+            android:hint="@string/phonenum"
             android:inputType="phone"
             android:padding="10dp"
             android:singleLine="true"
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
-            android:hint="请输入密码"
+            android:hint="@string/wo_qingshurumima"
             android:inputType="textPassword"
             android:padding="10dp"
             android:singleLine="true"
@@ -99,7 +99,7 @@
         android:clickable="true"
         android:gravity="center"
         android:padding="12dp"
-        android:text="登录"
+        android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="14sp" />
 
@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:gravity="right"
             android:padding="10dp"
-            android:text="忘记密码"
+            android:text="@string/wo_wangjimima"
             android:textColor="@color/txt_lv4"
             android:textSize="13sp" />
         <View
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:gravity="right"
             android:padding="10dp"
-            android:text="注册用户"
+            android:text="@string/wo_zhuceyonghu"
             android:textColor="@color/txt_main"
             android:textSize="13sp" />
 
@@ -160,7 +160,7 @@
             android:layout_marginRight="10dp"
             android:gravity="bottom"
             android:textSize="13sp"
-            android:text="第三方登录或注册"
+            android:text="@string/wo_disanfanglogin"
             android:textColor="#808080" />
 
     </LinearLayout>

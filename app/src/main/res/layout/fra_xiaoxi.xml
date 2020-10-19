@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:padding="10dp"
-            android:text="@string/wo_xiaoxi"
+            android:text="@string/xiaoxi"
             android:textColor="@color/txt_lv7"
 
             android:textSize="@dimen/rc_dimen_size_18" />

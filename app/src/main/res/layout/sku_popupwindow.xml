@@ -161,7 +161,7 @@
             android:background="@color/main_color"
             android:gravity="center"
             android:padding="15dp"
-            android:text="@string/wo_queding"
+            android:text="@string/confirm"
             android:textColor="@color/white"
             android:textSize="@dimen/txt_size_3" />
 

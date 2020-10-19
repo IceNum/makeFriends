@@ -42,7 +42,6 @@
     <string name="captcha">تەستىق كودىنى كىرگۈزۈڭ</string>
     <string name="fetch_captcha">تەستىق كودىغا ئېرىشىڭ</string>
     <string name="captcha_sended">تەستىق كودى ئەۋەتىلدى</string>
-    <string name="input_captcha">تەستىق كودىنى تولدۇرۇڭ</string>
     <string name="please_wait">سىكونت %1$d ساقلاش ۋاقتى</string>
     <string name="login_ing">تىزىملىنىۋاتىدۇ</string>
     <string name="edit_compose">ماتېريال تەھرىرلەش</string>
@@ -55,7 +54,6 @@
     <string name="birth_date">توغۇلغان كۈن</string>
     <string name="height">بوي ئېگىزلىكى</string>
 
-    <string name="input_phone_num">يانفون نومۇرىڭىزنى كىرگۈزۈڭ</string>
     <string name="input_phone_changed">يانفون نومۇرىنى ئۆزگەرتتىڭىز ، تەستىق كودىنى قايتىدىن كىرگۈزۈڭ</string>
     <string name="phonenum_cant_empty">يانفون نومۇرىنى قۇرۇق قالدۇرۇشقا بولمايدۇ </string>
     <string name="phonenum_invalid">توغرا بولغان يانفون نومۇرىنى كىرگۈزۈڭ</string>
@@ -79,6 +77,7 @@
 
     <string name="edit">تەھرېرلەش</string>
     <string name="done">تامام</string>
+    <string name="dazhaohu">سالام يوللاش</string>
 
     <string name="shop_title">سېتىۋېلىش ھارۋىسى(%s)</string>
     <string name="count_goods">ھېسابات ئۈزۈش（%s）</string>
@@ -121,146 +120,21 @@
     <string name="share_title">سىرداش</string>
     <string name="share_des">مۇھەببەتلىك تۇرمۇشىڭىزنى باشلاڭ</string>
 
-<!--    <string name="select_huati">选择话题</string>-->
-<!--    <string name="tiaojian_shai">条件筛选</string>-->
-<!--    <string name="wo_all_huati">全部话题</string>-->
-<!--    <string name="wo_tuijian">推荐</string>-->
-<!--    <string name="wo_fujin">附近</string>-->
-<!--    <string name="wo_sex">性别</string>-->
-<!--    <string name="wo_age">年龄</string>-->
-<!--    <string name="wo_adress">居住地</string>-->
-<!--    <string name="wo_xinyong">信用</string>-->
-<!--    <string name="wo_xinyongfen">信用分</string>-->
-<!--    <string name="wo_buxian">不限</string>-->
-<!--    <string name="wo_qingkong">清空</string>-->
-<!--    <string name="wo_queding">确定</string>-->
-<!--    <string name="wo_yujian">遇见</string>-->
-<!--    <string name="wo_guangchang">广场</string>-->
-<!--    <string name="wo_guanzhu">关注</string>-->
-
-<!--    <string name="wo_zhengyou">征友条件</string>-->
-<!--    <string name="wo_qingxuan">请选择</string>-->
-<!--    <string name="wo_shengao">身高</string>-->
-<!--    <string name="wo_yueshou">月收入</string>-->
-<!--    <string name="wo_xueli">学历</string>-->
-<!--    <string name="wo_fangchan">房产</string>-->
-<!--    <string name="wo_qiche">汽车</string>-->
-<!--    <string name="wo_minzu">民族</string>-->
-<!--    <string name="wo_jiguan">籍贯</string>-->
-<!--    <string name="wo_youfang">是否有房</string>-->
-<!--    <string name="wo_gouche">是否购车</string>-->
-<!--    <string name="wo_shiming">是否实名</string>-->
-
-<!--    <string name="wo_select_jubao_type">选择举报类型</string>-->
-<!--    <string name="wo_no_huati">没有可供选择的话题!</string>-->
-
-<!--    <string name="wo_man">男</string>-->
-<!--    <string name="wo_wom">女</string>-->
-
-    <string name="wo_xiaoxi">消息</string>
-    <string name="wo_xitongxiaoxi">系统消息</string>
-    <string name="wo_xiaoxishezhi">消息设置</string>
-    <string name="wo_jieshouwoxiaoxi">接收消息</string>
-    <string name="wo_jieshouxiaoxi">接受所有人的消息</string>
-    <string name="wo_zhijieshouxiaoxi">只接受符合交友条件消息</string>
-    <string name="wo_zhengyouzhong">征友进行中</string>
-    <string name="wo_zhengzaiyuehui">正在约会中</string>
-    <string name="wo_zhaodaoyizhong">找到意中人</string>
-    <string name="wo_lianaizhuangtai">恋爱状态</string>
-    <string name="wo_renzhengzhuangtai">认证状态：</string>
-    <string name="wo_shenhezhong">审核中</string>
-    <string name="wo_yirenzheng">已认证</string>
-    <string name="wo_shenhefil">审核失败</string>
-    <string name="wo_qurenzhegn">去认证</string>
-    <string name="wo_huiyuanfuwu">会员服务</string>
-    <string name="wo_guanzhude">我关注的</string>
-    <string name="wo_qianbao">我的钱包</string>
-    <string name="wo_gerenziliao">个人资料</string>
-    <string name="wo_xiangce">我的相册</string>
-    <string name="wo_renzhengzhongxin">认证中心</string>
-    <string name="wo_dongtai">我的动态</string>
-    <string name="wo_shuiguan">谁关注我</string>
-    <string name="wo_shuikan">谁看过我</string>
-    <string name="wo_yaoqing">邀请好友</string>
-    <string name="wo_setting">设置</string>
-
-    <string name="wo_gerenxinxi">个人信息</string>
-    <string name="wo_nicheng">昵称</string>
-    <string name="wo_nichengbuweikong">昵称不能为空!</string>
-    <string name="wo_qingtiannicheng">填写昵称</string>
-    <string name="wo_weitiannicheng">未填写昵称</string>
-    <string name="wo_neixindubai">内心独白</string>
-    <string name="wo_tianxiedubai">填写独白</string>
-    <string name="wo_jibenziliao">基本资料</string>
-    <string name="wo_xiangxiziliao">详细资料</string>
-    <string name="wo_biaoqianxuan">标签选择</string>
-    <string name="wo_shuomingbiaoqian">说明：标签最多只能选三个</string>
-    <string name="wo_biyeyuanxiao">毕业院校</string>
-    <string name="wo_qingshuru">请输入</string>
-    <string name="wo_qingxuanze">请选择</string>
-    <string name="wo_hangye">行业</string>
-    <string name="wo_hunyinzhuang">婚姻状况</string>
-    <string name="wo_zaixunzhao">我在寻找</string>
-    <string name="wo_tizhong">体重</string>
-    <string name="wo_youwuzinv">有无子女</string>
-    <string name="wo_zongjiao">宗教信仰</string>
-    <string name="wo_xingzuo">星座</string>
-    <string name="wo_shuxiang">属相</string>
-    <string name="wo_shi">是</string>
-    <string name="wo_fou">否</string>
-    <string name="wo_quxiao">取消</string>
-
-    <string name="wo_fabudongtai">发布动态</string>
-    <string name="wo_huatixuanze">话题选择：</string>
-    <string name="wo_xianshiweizhi">是否显示位置</string>
-
-    <string name="wo_yishiming">已实名</string>
-    <string name="wo_wufang">无房</string>
-    <string name="wo_youche">有车</string>
-    <string name="wo_wuche">无车</string>
-
-    <string name="wo_tongzhishezhi">通知设置</string>
-    <string name="wo_heimingdan">黑名单</string>
-    <string name="wo_xiugaimima">修改密码</string>
-    <string name="wo_yijianfank">意见反馈</string>
-    <string name="wo_fuwuxieyi">服务协议</string>
-    <string name="wo_lianxiwomen">联系我们</string>
-    <string name="wo_changjian">常见问题</string>
-    <string name="wo_banbengengx">版本更新</string>
-    <string name="wo_qingchuhuan">清除缓存</string>
-    <string name="wo_tuichudeng">退出登录</string>
-
-
-    <string name="wo_shoujirz">手机验证</string>
-    <string name="wo_shenfenrz">身份认证</string>
-    <string name="wo_xuelrz">学历认证</string>
-    <string name="wo_zhiyerz">职业认证</string>
-    <string name="wo_cherz">车辆认证</string>
-    <string name="wo_fangrz">房产认证</string>
-    <string name="wo_yirz">已认证</string>
-    <string name="wo_qurz">去认证</string>
-
 
     <string name="select_huati">تېما تاللاش</string>
     <string name="tiaojian_shai">شەرتلىك تاللاش</string>
     <string name="wo_all_huati">پۈتۈن تېما</string>
-    <string name="wo_tuijian">تەۋسيە قىلىش</string>
     <string name="wo_fujin">يېقىن ئەتراپ </string>
-    <string name="wo_sex">جىنسى</string>
     <string name="wo_age">يېشى</string>
     <string name="wo_adress">ئۇلتۇرۇشلۇق ئۇرنى</string>
     <string name="wo_xinyong">ئىناۋەت</string>
     <string name="wo_xinyongfen">ئىناۋەت نۇمۇرى</string>
     <string name="wo_buxian">چەكلىمە يۇق </string>
     <string name="wo_qingkong">تازلاش </string>
-    <string name="wo_queding">جەزىملەش</string>
-    <string name="wo_yujian">كۆرۈش رايۇنى</string>
-    <string name="wo_guangchang">مەيدان </string>
     <string name="wo_guanzhu">نەزەر سېلىش</string>
 
     <string name="wo_zhengyou">دوست تۇتۇش شەرتى</string>
     <string name="wo_qingxuan">تاللاڭ</string>
-    <string name="wo_shengao">بوي ئىگىزلىكى</string>
     <string name="wo_yueshou">ئايلىق كىرىمى</string>
     <string name="wo_xueli">ئۇقۇش تارىخى</string>
     <string name="wo_fangchan">ئۆي-مۈلۈك </string>
@@ -274,10 +148,320 @@
     <string name="wo_select_jubao_type">پاش قىلىش تۈرىنى تاللاش</string>
     <string name="wo_no_huati">تاللاشقا بۇلىدىغان تېما يۇق</string>
 
-    <string name="wo_man">ئەر</string>
-    <string name="wo_wom">ئايال</string>
+    <string name="wo_xitongxiaoxi">سىستما ئۇچۇرى</string>
+    <string name="wo_xiaoxishezhi">ئۇچۇر تەڭشىكى</string>
+    <string name="wo_jieshouwoxiaoxi">ئۇچۇر قۇبۇل قىلىش</string>
+    <string name="wo_jieshouxiaoxi"> ھەممە ئۇچۇرنى قۇبۇل قىلىش</string>
+    <string name="wo_zhijieshouxiaoxi"> شەرتكە ئۇيغۇن ئۇچۇرنى قۇبۇل قىلىش</string>
+    <string name="wo_zhengyouzhong"> دۇست ئىزدەۋاتىدۇ</string>
+    <string name="wo_zhengzaiyuehui"> لايىق ئىزدەش</string>
+    <string name="wo_zhaodaoyizhong"> كۈڭۈل ھەمرايىنى تېپىش</string>
+    <string name="wo_lianaizhuangtai"> مۇھەببەتلىشىش ھالىتى .</string>
+    <string name="wo_renzhengzhuangtai">دەلىللەش ھالىتى :</string>
+    <string name="wo_shenhezhong">دەلىللىنىۋاتىدۇ .</string>
+    <string name="wo_yirenzheng">ئېتىراپ قىلىندى</string>
+    <string name="wo_shenhefil">دەلىللەش مەغلۇب بۇلدى</string>
+    <string name="wo_qurenzhegn"> سالاھىتىنى تۇنۇتۇش</string>
+    <string name="wo_huiyuanfuwu">ئەزالار مۇلازىمىتى</string>
+    <string name="wo_guanzhude">مېنىڭ  كۆرگەنلىرىم</string>
+    <string name="wo_qianbao">پۇل قاپچۇقۇم</string>
+    <string name="wo_gerenziliao">شەخسىي ماتىرىيال</string>
+    <string name="wo_xiangce">مېنىڭ ئالبومىم</string>
+    <string name="wo_renzhengzhongxin">دەلىلەش مەركىزى</string>
+    <string name="wo_dongtai"> مېنىڭ ھالىتىم</string>
+    <string name="wo_shuiguan">مەستانىلىرىم </string>
+    <string name="wo_shuikan"> مىنى كۆرگەنلەر </string>
+    <string name="wo_yaoqing"> دۇست تەكلىپ قىلىش</string>
+
+    <string name="wo_gerenxinxi"> شەخسىي ئۇچۇرلار </string>
+    <string name="wo_nichengbuweikong">تەخەللۇسنى قۇرۇق قالدۇرۇشقا بۇلمايدۇ </string>
+    <string name="wo_qingtiannicheng"> تەخەللۇسنى يېزىش</string>
+    <string name="wo_weitiannicheng"> تەخەللۇسى يېزىلمىغان</string>
+    <string name="wo_neixindubai"> قەلب ئىزھارى</string>
+    <string name="wo_tianxiedubai"> كۆڭۈل ئىزھارىنى يېزىش </string>
+    <string name="wo_jibenziliao">ئاساسىي ماتىرياللار</string>
+    <string name="wo_xiangxiziliao">تەپسىلىي ماتىرىياللار</string>
+    <string name="wo_biaoqianxuan"> بەتكۈچنى تاللاش </string>
+    <string name="wo_shuomingbiaoqian">ئىزاھات: بەتكۈچتە ئەڭ كۆپ بولغاندا ئۈچنىلا تاللىغىلى بولىدۇ </string>
+    <string name="wo_biyeyuanxiao">پۈتتۈرگەن مەكتىپى  </string>
+    <string name="wo_qingshuru"> كىرگۈزۈڭ</string>
+    <string name="wo_qingxuanze">تاللاڭ </string>
+    <string name="wo_hangye"> كەسىپ</string>
+    <string name="wo_hunyinzhuang">نىكاھ ئەھۋالى</string>
+    <string name="wo_zaixunzhao">ئىزدەۋاتىمەن</string>
+    <string name="wo_tizhong">بەدەن ئېغىرلىقىڭىز</string>
+    <string name="wo_youwuzinv">پەرزەنت  بارمۇ يوق</string>
+    <string name="wo_zongjiao">ئېتىقادىڭىز</string>
+    <string name="wo_xingzuo">يۇلتۇز تۈركۈمىڭىز</string>
+    <string name="wo_shuxiang">مۆچىلىڭىز</string>
+
+    <string name="wo_fabudongtai">ھەرىكەت ھالىتىنى ئېلان قىلىش</string>
+    <string name="wo_huatixuanze">تېما تاللاش.：</string>
+    <string name="wo_xianshiweizhi"> ئورۇن بەلگىلەپ بېرەمدۇ</string>
+    <string name="wo_yishiming">ئىسىم جەزملەشتۈرۈلدى</string>
+    <string name="wo_wufang">ئۆيى يۇق</string>
+    <string name="wo_youche"> ماشىنىسى بار</string>
+    <string name="wo_wuche">ماشىنىسى يۇق</string>
+    <string name="wo_tongzhishezhi"> ئۇقتۇرۇش تەڭشىكى</string>
+    <string name="wo_heimingdan">قارا  تىزىملىك </string>
+    <string name="wo_xiugaimima"> مەخپىي نومۇرنى ئۆزگەرتىش</string>
+    <string name="wo_yijianfank"> پىكىر ئىنكاس قىلىش </string>
+    <string name="wo_fuwuxieyi"> مۇلازىمەت كېلىشىمى</string>
+    <string name="wo_lianxiwomen"> بىز بىلەن ئالاقىلىشىڭ</string>
+    <string name="wo_changjian">دائىم كۆرۈلىدىغان مەسىلىلەر</string>
+    <string name="wo_banbengengx">نەشرىنى يېڭىلاش  </string>
+    <string name="wo_qingchuhuan"> غەملەكنى تازىلاش</string>
 
 
+<!--        <string name="app_name">回眸</string>-->
+<!--        <string name="homepage">推荐</string>-->
+<!--        <string name="empty"></string>-->
+<!--        <string name="yujian">遇见</string>-->
+<!--        <string name="guangchang">广场</string>-->
+<!--        <string name="minepage">我的</string>-->
+<!--        <string name="xiaoxi">消息</string>-->
+
+<!--        <string name="update">发布</string>-->
+<!--        <string name="sendgift">送礼物</string>-->
+<!--        <string name="cancel">取消</string>-->
+<!--        <string name="save">保存</string>-->
+<!--        <string name="confirm">确定</string>-->
+<!--        <string name="delete">删除</string>-->
+<!--        <string name="settings">设置</string>-->
+<!--        <string name="version">版本信息</string>-->
+<!--        <string name="current_version">当前版本</string>-->
+<!--        <string name="about_me">关于我</string>-->
+<!--        <string name="mingxi">明细</string>-->
+<!--        <string name="sqtk">申请退款</string>-->
+
+<!--        <string name="press_again_to_leave">再按一次退出</string>-->
+<!--        <string name="loading">正在加载...</string>-->
+<!--        <string name="load_err_retry">加载失败，点击重试</string>-->
+<!--        <string name="empty_fornow">暂无内容</string>-->
+<!--        <string name="net_error">当前网络不可用，请检查网络设置。</string>-->
+
+<!--        <string name="locating">正在定位…</string>-->
+<!--        <string name="located_failed">定位失败</string>-->
+
+<!--        <string name="prompt_phone">手机号</string>-->
+<!--        <string name="prompt_captcha">验证码</string>-->
+<!--        <string name="send_captcha">/验证码</string>-->
+<!--        <string name="captcha_sending">正在发送验证码...</string>-->
+<!--        <string name="login">登录</string>-->
+<!--        <string name="hint">提示</string>-->
+<!--        <string name="committing">正在提交数据...</string>-->
+
+<!--        <string name="phonenum">请输入手机号</string>-->
+<!--        <string name="captcha">请输入验证码</string>-->
+<!--        <string name="fetch_captcha">获取验证码</string>-->
+<!--        <string name="captcha_sended">验证码已发送</string>-->
+<!--        <string name="please_wait">请等待 %1$d 秒</string>-->
+<!--        <string name="login_ing">正在登录...</string>-->
+<!--        <string name="edit_compose">编辑资料</string>-->
+<!--        <string name="portrait">头像</string>-->
+<!--        <string name="clip_picture">裁剪图片</string>-->
+<!--        <string name="username">昵称</string>-->
+<!--        <string name="gender">性别</string>-->
+<!--        <string name="male">男</string>-->
+<!--        <string name="female">女</string>-->
+<!--        <string name="birth_date">出生日期</string>-->
+<!--        <string name="height">身高</string>-->
+
+<!--        <string name="input_phone_changed">您修改了手机号，请重新获取验证码</string>-->
+<!--        <string name="phonenum_cant_empty">手机号码不能为空</string>-->
+<!--        <string name="phonenum_invalid">请输入正确的手机号码</string>-->
+<!--        <string name="captcha_cant_empty">请输入正确的验证码</string>-->
+<!--        <string name="register_protocol">登录即代表同意[Emi]</string>-->
+<!--        <string name="privacy_items">隐私条款</string>-->
+
+<!--        <string name="setting_opinion">App意见反馈</string>-->
+<!--        <string name="setting_service">售后服务</string>-->
+<!--        <string name="setting_about">关于</string>-->
+<!--        <string name="setting_private">用户隐私协议</string>-->
+<!--        <string name="setting_logout">退出登录</string>-->
+<!--        <string name="personal_info">我的资料</string>-->
+
+<!--        <string name="feedback">意见反馈</string>-->
+<!--        <string name="feedback_hint">点击输入您的建议或意见</string>-->
+<!--        <string name="feedback_success">发送成功!</string>-->
+<!--        <string name="send">发送</string>-->
+
+<!--        <string name="pick_place">选择地点</string>-->
+
+<!--        <string name="edit">编辑</string>-->
+<!--        <string name="done">完成</string>-->
+<!--        <string name="dazhaohu">打招呼</string>-->
+
+<!--        <string name="shop_title">购物车(%s)</string>-->
+<!--        <string name="count_goods">结算（%s）</string>-->
+<!--        <string name="point_reduce">主贴不超过50个字，发帖需要扣除积分：%s分</string>-->
+<!--        <string name="point_add">主贴不超过50个字，发布通过审核后增加：%s积分，每日最多通过此种方式获得15个积分</string>-->
+<!--        <string name="pic_hint">为保证图片展示效果，建议放置600*600左右的图片</string>-->
+
+<!--        <string name="clear">清空</string>-->
+<!--        <string name="new_address">添加地址</string>-->
+<!--        <string name="hint1">1、结束时间指优惠券可领取的最后时间，到结束后，优惠券不可再被领取，已经领取过的用户不影响使用；</string>-->
+<!--        <string name="hint2">2、有效期为从用户领取之日起，多少天内可使用，超过则过期无法使用。</string>-->
+<!--        <string name="recommit">重新提交</string>-->
+
+
+<!--        <string name="shopname">维多利亚的秘密</string>-->
+<!--        <string name="goodname">苹果 iPhone X 256G</string>-->
+<!--        <string name="shopintro">最值得信赖的旺铺</string>-->
+<!--        <string name="distance">400m</string>-->
+<!--        <string name="address">郑州市二七区长城康桥18层1801</string>-->
+<!--        <string name="goodsname">维多利亚的秘密 18 夏季 手工刺绣图案</string>-->
+<!--        <string name="rmb">¥</string>-->
+<!--        <string name="money">¥0.00</string>-->
+<!--        <string name="sale">已售1000</string>-->
+<!--        <string name="comment">评论：10</string>-->
+<!--        <string name="rate">好评率：90%</string>-->
+<!--        <string name="ljlq">立即\n领取</string>-->
+<!--        <string name="ljsy">立即\n使用</string>-->
+<!--        <string name="manager">管理</string>-->
+<!--        <string name="httperror">网络请求失败...</string>-->
+<!--        <string name="nomore">没有更多数据</string>-->
+
+<!--        <string name="umeng_socialize_sharetosina">分享到新浪微博</string>-->
+<!--        <string name="umeng_socialize_sharetodouban">分享到豆瓣</string>-->
+<!--        <string name="umeng_socialize_sharetorenren">分享到人人网</string>-->
+<!--        <string name="umeng_socialize_sharetotencent">分享到腾讯微博</string>-->
+<!--        <string name="umeng_socialize_sharetotwitter">分享到twitter</string>-->
+<!--        <string name="umeng_socialize_sharetolinkin">分享到领英</string>-->
+
+<!--        <string name="share_title">回眸</string>-->
+<!--        <string name="share_des">开启恋爱生活</string>-->
+
+<!--        <string name="select_huati">选择话题</string>-->
+<!--        <string name="tiaojian_shai">条件筛选</string>-->
+<!--        <string name="wo_all_huati">全部话题</string>-->
+<!--        <string name="wo_fujin">附近</string>-->
+<!--        <string name="wo_age">年龄</string>-->
+<!--        <string name="wo_adress">居住地</string>-->
+<!--        <string name="wo_xinyong">信用</string>-->
+<!--        <string name="wo_xinyongfen">信用分</string>-->
+<!--        <string name="wo_buxian">不限</string>-->
+<!--        <string name="wo_qingkong">清空</string>-->
+<!--        <string name="wo_guanzhu">关注</string>-->
+
+<!--        <string name="wo_zhengyou">征友条件</string>-->
+<!--        <string name="wo_qingxuan">请选择</string>-->
+<!--        <string name="wo_yueshou">月收入</string>-->
+<!--        <string name="wo_xueli">学历</string>-->
+<!--        <string name="wo_fangchan">房产</string>-->
+<!--        <string name="wo_qiche">汽车</string>-->
+<!--        <string name="wo_minzu">民族</string>-->
+<!--        <string name="wo_jiguan">籍贯</string>-->
+<!--        <string name="wo_youfang">是否有房</string>-->
+<!--        <string name="wo_gouche">是否购车</string>-->
+<!--        <string name="wo_shiming">是否实名</string>-->
+
+<!--        <string name="wo_select_jubao_type">选择举报类型</string>-->
+<!--        <string name="wo_no_huati">没有可供选择的话题!</string>-->
+
+<!--        <string name="wo_xitongxiaoxi">系统消息</string>-->
+<!--        <string name="wo_xiaoxishezhi">消息设置</string>-->
+<!--        <string name="wo_jieshouwoxiaoxi">接收消息</string>-->
+<!--        <string name="wo_jieshouxiaoxi">接受所有人的消息</string>-->
+<!--        <string name="wo_zhijieshouxiaoxi">只接受符合交友条件消息</string>-->
+<!--        <string name="wo_zhengyouzhong">征友进行中</string>-->
+<!--        <string name="wo_zhengzaiyuehui">正在约会中</string>-->
+<!--        <string name="wo_zhaodaoyizhong">找到意中人</string>-->
+<!--        <string name="wo_lianaizhuangtai">恋爱状态</string>-->
+<!--        <string name="wo_renzhengzhuangtai">认证状态：</string>-->
+<!--        <string name="wo_shenhezhong">审核中</string>-->
+<!--        <string name="wo_yirenzheng">已认证</string>-->
+<!--        <string name="wo_shenhefil">审核失败</string>-->
+<!--        <string name="wo_qurenzhegn">去认证</string>-->
+<!--        <string name="wo_huiyuanfuwu">会员服务</string>-->
+<!--        <string name="wo_guanzhude">我关注的</string>-->
+<!--        <string name="wo_qianbao">我的钱包</string>-->
+<!--        <string name="wo_gerenziliao">个人资料</string>-->
+<!--        <string name="wo_xiangce">我的相册</string>-->
+<!--        <string name="wo_renzhengzhongxin">认证中心</string>-->
+<!--        <string name="wo_dongtai">我的动态</string>-->
+<!--        <string name="wo_shuiguan">谁关注我</string>-->
+<!--        <string name="wo_shuikan">谁看过我</string>-->
+<!--        <string name="wo_yaoqing">邀请好友</string>-->
+
+<!--        <string name="wo_gerenxinxi">个人信息</string>-->
+<!--        <string name="wo_nichengbuweikong">昵称不能为空!</string>-->
+<!--        <string name="wo_qingtiannicheng">填写昵称</string>-->
+<!--        <string name="wo_weitiannicheng">未填写昵称</string>-->
+<!--        <string name="wo_neixindubai">内心独白</string>-->
+<!--        <string name="wo_tianxiedubai">填写独白</string>-->
+<!--        <string name="wo_jibenziliao">基本资料</string>-->
+<!--        <string name="wo_xiangxiziliao">详细资料</string>-->
+<!--        <string name="wo_biaoqianxuan">标签选择</string>-->
+<!--        <string name="wo_shuomingbiaoqian">说明：标签最多只能选三个</string>-->
+<!--        <string name="wo_biyeyuanxiao">毕业院校</string>-->
+<!--        <string name="wo_qingshuru">请输入</string>-->
+<!--        <string name="wo_qingxuanze">请选择</string>-->
+<!--        <string name="wo_hangye">行业</string>-->
+<!--        <string name="wo_hunyinzhuang">婚姻状况</string>-->
+<!--        <string name="wo_zaixunzhao">我在寻找</string>-->
+<!--        <string name="wo_tizhong">体重</string>-->
+<!--        <string name="wo_youwuzinv">有无子女</string>-->
+<!--        <string name="wo_zongjiao">宗教信仰</string>-->
+<!--        <string name="wo_xingzuo">星座</string>-->
+<!--        <string name="wo_shuxiang">属相</string>-->
+
+<!--        <string name="wo_fabudongtai">发布动态</string>-->
+<!--        <string name="wo_huatixuanze">话题选择：</string>-->
+<!--        <string name="wo_xianshiweizhi">是否显示位置</string>-->
+<!--        <string name="wo_yishiming">已实名</string>-->
+<!--        <string name="wo_wufang">无房</string>-->
+<!--        <string name="wo_youche">有车</string>-->
+<!--        <string name="wo_wuche">无车</string>-->
+<!--        <string name="wo_tongzhishezhi">通知设置</string>-->
+<!--        <string name="wo_heimingdan">黑名单</string>-->
+<!--        <string name="wo_xiugaimima">修改密码</string>-->
+<!--        <string name="wo_yijianfank">意见反馈</string>-->
+<!--        <string name="wo_fuwuxieyi">服务协议</string>-->
+<!--        <string name="wo_lianxiwomen">联系我们</string>-->
+<!--        <string name="wo_changjian">常见问题</string>-->
+<!--        <string name="wo_banbengengx">版本更新</string>-->
+<!--        <string name="wo_qingchuhuan">清除缓存</string>-->
+
+    <string name="wo_shoujirz">يانفون دەلىللەش </string>
+    <string name="wo_shenfenrz">  سالاھىيەت ئىسپاتى</string>
+    <string name="wo_xuelrz"> ئوقۇش تارىخى ئىسپاتى</string>
+    <string name="wo_zhiyerz">كەسپىي ئىسپات بېرىش  </string>
+    <string name="wo_cherz">ئاپتوموبىل ئىسپاتى  </string>
+    <string name="wo_fangrz"> ئۆي مۈلۈك ئىسپاتى </string>
+    <string name="wo_qurz">دەلىللەڭ </string>
+
+<!--        <string name="wo_shoujirz">手机验证</string>-->
+<!--        <string name="wo_shenfenrz">身份认证</string>-->
+<!--        <string name="wo_xuelrz">学历认证</string>-->
+<!--        <string name="wo_zhiyerz">职业认证</string>-->
+<!--        <string name="wo_cherz">车辆认证</string>-->
+<!--        <string name="wo_fangrz">房产认证</string>-->
+<!--        <string name="wo_qurz">去认证</string>-->
+
+    <string name="wo_disanfanglogin"> ئۈچىنچى تەرەپ تىزىملىتىش ياكى رويخەتكە ئالدۇرۇش </string>
+    <string name="wo_wangjimima"> مەخپىي نومۇرنى ئۇنتۇش </string>
+    <string name="wo_zhuceyonghu"> رويخەتكە ئېلىنغان ئابۇنىت </string>
+    <string name="wo_qingshurumima"> مەخپىي نومۇرىڭىزنى كىرگۈزۈڭ</string>
+    <string name="wo_qingshuruxinmima"> يېڭى مەخپىي نومۇرنى كىرگۈزۈڭ</string>
+    <string name="wo_zhuce">رويخەتكە ئالدۇرۇش </string>
+    <string name="wo_tijiao">تاپشۇرۇش </string>
+    <string name="wo_querentijiao"> تاپشۇرۇشنى جەزىملەش  </string>
+    <string name="wo_yiyuedu">ئۇقۇپ بۇلدۇم، قۇشۇلىمەن</string>
+    <string name="wo_qingquebaotijiao">تاپشۇرغان ئۇچۇرىڭىزنىڭ ھەقىقىي كۈچكە ئىگە بولۇشىغا كاپالەتلىك قىلىڭ </string>
+    <string name="wo_shangchuanzhenshitouxiang">چىن بولغان باش سۆرىتىڭىزنى ئىشلىتىڭ،چىنسىز سۆرەت تەۋسىيەگە ئېرىشىەلمەيدۇ</string>
+
+<!--        <string name="wo_disanfanglogin">第三方登录或注册</string>-->
+<!--        <string name="wo_wangjimima">忘记密码</string>-->
+<!--        <string name="wo_zhuceyonghu">注册用户</string>-->
+<!--        <string name="wo_qingshurumima">请输入密码</string>-->
+<!--        <string name="wo_qingshuruxinmima">请输入新密码</string>-->
+<!--        <string name="wo_zhuce">注册</string>-->
+<!--        <string name="wo_tijiao">提交</string>-->
+<!--        <string name="wo_querentijiao">确认提交</string>-->
+<!--        <string name="wo_yiyuedu">我已阅读并同意</string>-->
+<!--        <string name="wo_qingquebaotijiao">请确保您提交的信息真实有效</string>-->
+<!--    <string name="wo_shangchuanzhenshitouxiang">上传真实头像，非真实头像不会得到推荐</string>-->
 
 
 

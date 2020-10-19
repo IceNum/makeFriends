@@ -24,6 +24,7 @@ import android.widget.TextView;
 import com.alipay.sdk.app.PayTask;
 import com.people.loveme.AppConsts;
 import com.people.loveme.GlobalBeans;
+import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.bean.AlipayBean;
 import com.people.loveme.bean.CreatOrderBean;
@@ -101,7 +102,7 @@ public class SfrzFra extends TitleFragment implements View.OnClickListener, PayD
 
     @Override
     public String getTitleName() {
-        return "身份认证";
+        return HcbApp.self.getString(R.string.wo_shenfenrz);
     }
 
     @Nullable

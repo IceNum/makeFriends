@@ -12,7 +12,7 @@
         android:textColor="@color/txt_main"
         android:textSize="@dimen/txt_size_12"
         android:padding="10dp"
-        android:text="@string/wo_shengao"/>
+        android:text="@string/height"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -55,7 +55,7 @@
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:textColor="@color/txt_lv1"
-            android:text="@string/wo_quxiao"/>
+            android:text="@string/cancel"/>
         <TextView
             android:id="@+id/tv_sure"
             android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:textColor="@color/txt_lv5"
-            android:text="@string/wo_queding"/>
+            android:text="@string/confirm"/>
 
 
     </LinearLayout>

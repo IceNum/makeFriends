@@ -127,7 +127,7 @@ public class TiXianFra extends TitleFragment implements View.OnClickListener {
                         .setCancelable(false)
                         .setCanceledOnTouchOutside(false)
                         .setText("虚拟币数量不能小于1000!")//内容
-                        .setPositive(mContext.getString(R.string.wo_queding), new View.OnClickListener() {
+                        .setPositive(mContext.getString(R.string.confirm), new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
 

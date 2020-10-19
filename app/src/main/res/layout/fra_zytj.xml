@@ -117,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/wo_shengao"
+                    android:text="@string/height"
                     android:textColor="@color/txt_lv2"
                     android:textSize="14sp" />
 

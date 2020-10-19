@@ -100,7 +100,7 @@
             android:background="@drawable/shap_round_main_5dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="提交"
+            android:text="@string/wo_tijiao"
             android:textColor="@color/white" />
 
         <TextView
@@ -109,7 +109,7 @@
             android:textSize="@dimen/txt_size_12"
             android:textColor="@color/txt_main"
             android:layout_gravity="center_horizontal"
-            android:text="请确保您提交的信息真实有效"/>
+            android:text="@string/wo_qingquebaotijiao"/>
     </LinearLayout>
 
 </LinearLayout>

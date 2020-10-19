@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/txt_lv7"
             android:layout_margin="5dp"
-            android:text="@string/wo_nicheng"/>
+            android:text="@string/username"/>
         <TextView
             android:id="@+id/tv_jf"
             android:layout_width="wrap_content"

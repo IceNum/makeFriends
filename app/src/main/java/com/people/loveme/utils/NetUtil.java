@@ -26,7 +26,7 @@ public class NetUtil {
                 public void onClick(DialogInterface dialog, int which) {
                 }
             });
-            builder.setNegativeButton(context.getString(R.string.wo_queding), new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(context.getString(R.string.confirm), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     if (android.os.Build.VERSION.SDK_INT > 10) {

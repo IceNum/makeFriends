@@ -396,7 +396,7 @@ public class MainActivity extends BaseFragAct
                                     .setCancelable(false)
                                     .setCanceledOnTouchOutside(false)
                                     .setText("该账号已在别处登录！")//内容
-                                    .setPositive(getString(R.string.wo_queding), new View.OnClickListener() {
+                                    .setPositive(getString(R.string.confirm), new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
                                             ActivitySwitcher.startFragment(MainActivity.this, LoginFra.class);

@@ -157,7 +157,7 @@ public class RegistFra extends TitleFragment implements View.OnClickListener {
                 String user_phone_number = etAccount.getText().toString().trim();
                 //验证电话号码不能为空
                 if (TextUtils.isEmpty(user_phone_number)) {
-                    ToastUtil.show("请输入手机号");
+                    ToastUtil.show(getString(R.string.phonenum));
                     return;
                 }
                 //验证手机号是否正确

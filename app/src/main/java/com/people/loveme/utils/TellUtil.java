@@ -32,6 +32,6 @@ public class TellUtil {
                 }
                 context.startActivity(intent);
             }
-        }).setBtnColor(R.color.txt_lv2, R.color.txt_lv5, 0).setBtnText("取消", context.getString(R.string.wo_queding)).show();
+        }).setBtnColor(R.color.txt_lv2, R.color.txt_lv5, 0).setBtnText("取消", "确定").show();
     }
 }

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.people.loveme.AppConsts;
+import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.bean.BaseBean;
 import com.people.loveme.http.OkHttpHelper;
@@ -78,7 +79,7 @@ public class ChangePasswordFra extends TitleFragment {
             return;
         }
         if (StringUtil.isEmpty(password)) {
-            ToastUtil.show("请输入密码");
+            ToastUtil.show(getString(R.string.wo_qingshurumima));
             return;
         }
         if (StringUtil.isEmpty(repassword)) {

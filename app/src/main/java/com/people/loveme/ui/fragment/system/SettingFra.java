@@ -68,7 +68,7 @@ public class SettingFra extends TitleFragment implements View.OnClickListener {
 
     @Override
     public String getTitleName() {
-        return HcbApp.self.getString(R.string.wo_setting);
+        return HcbApp.self.getString(R.string.settings);
     }
 
     @Nullable

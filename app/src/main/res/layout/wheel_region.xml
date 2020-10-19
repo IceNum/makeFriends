@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="@string/wo_quxiao"
+            android:text="@string/cancel"
             android:textColor="@color/txt_lv2"
             android:textSize="15sp" />
 
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="10dp"
-            android:text="@string/wo_queding"
+            android:text="@string/confirm"
             android:textColor="@color/txt_lv4"
             android:textSize="15sp" />
     </RelativeLayout>

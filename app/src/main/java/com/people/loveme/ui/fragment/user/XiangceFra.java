@@ -15,6 +15,7 @@ import android.widget.GridView;
 import com.lzy.ninegrid.ImageInfo;
 import com.lzy.ninegrid.preview.ImagePreviewActivity;
 import com.people.loveme.AppConsts;
+import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.actlink.NaviRightListener;
 import com.people.loveme.adapter.ImageAdapter;
@@ -75,7 +76,7 @@ public class XiangceFra extends TitleFragment implements NaviRightListener, BGAR
 
     @Override
     public String getTitleName() {
-        return "相册";
+        return HcbApp.self.getString(R.string.wo_xiangce);
     }
 
     @Nullable

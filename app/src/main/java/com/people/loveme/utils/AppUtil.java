@@ -201,7 +201,7 @@ public class AppUtil {
     public static void showMarketDialog(final Activity activity) {
         AlertDialog dialog = new AlertDialog.Builder(activity)
                 .setMessage("您没有安装高德地图客户端，请下载安装")
-                .setNegativeButton(activity.getString(R.string.wo_quxiao), null)
+                .setNegativeButton(activity.getString(R.string.cancel), null)
                 .setPositiveButton("去下载", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

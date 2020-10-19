@@ -249,11 +249,11 @@ public class XyzxFra extends TitleFragment implements View.OnClickListener, Even
     private void setStatus(String status, TextView tv) {
         switch (status) {  //0审核中   1  已认证  2 审核失败   3未认证
             case "0":
-                tv.setText("审核中");
+                tv.setText(getString(R.string.wo_shenhezhong));
                 tv.setTextColor(mContext.getResources().getColor(R.color.price));
                 break;
             case "1":
-                tv.setText("已认证");
+                tv.setText(getString(R.string.wo_yirenzheng));
                 tv.setTextColor(mContext.getResources().getColor(R.color.txt_main));
                 break;
             case "2":
@@ -305,28 +305,28 @@ public class XyzxFra extends TitleFragment implements View.OnClickListener, Even
                 ActivitySwitcher.startFragment(getActivity(), XiangceFra.class);
                 break;
             case R.id.ll_smrz:
-                if (tvXmrz.getText().toString().equals("审核中") || tvXmrz.getText().toString().equals("已认证")){
+                if (tvXmrz.getText().toString().equals(getString(R.string.wo_shenhezhong)) || tvXmrz.getText().toString().equals(getString(R.string.wo_yirenzheng))){
                     showToast(tvXmrz);
                     return;
                 }
                 ActivitySwitcher.start(getActivity(), SfrzActivity.class);
                 break;
             case R.id.ll_xlrz:
-                if (tvXlrz.getText().toString().equals("审核中") || tvXlrz.getText().toString().equals("已认证")){
+                if (tvXlrz.getText().toString().equals(getString(R.string.wo_shenhezhong)) || tvXlrz.getText().toString().equals(getString(R.string.wo_yirenzheng))){
                     showToast(tvXlrz);
                     return;
                 }
                 ActivitySwitcher.startFragment(getActivity(), XlrzFra.class);
                 break;
             case R.id.ll_zyrz:
-                if (tvZyrz.getText().toString().equals("审核中") || tvZyrz.getText().toString().equals("已认证")){
+                if (tvZyrz.getText().toString().equals(getString(R.string.wo_shenhezhong)) || tvZyrz.getText().toString().equals(getString(R.string.wo_yirenzheng))){
                     showToast(tvZyrz);
                     return;
                 }
                 ActivitySwitcher.startFragment(getActivity(), ZyrzFra.class);
                 break;
             case R.id.ll_clrz:
-                if (tvClrz.getText().toString().equals("审核中") || tvClrz.getText().toString().equals("已认证")){
+                if (tvClrz.getText().toString().equals(getString(R.string.wo_shenhezhong)) || tvClrz.getText().toString().equals(getString(R.string.wo_yirenzheng))){
                     showToast(tvClrz);
                     return;
                 }
@@ -334,7 +334,7 @@ public class XyzxFra extends TitleFragment implements View.OnClickListener, Even
                 break;
             case R.id.ll_fcrz:
 
-                if (tvFcrz.getText().toString().equals("审核中") || tvFcrz.getText().toString().equals("已认证")){
+                if (tvFcrz.getText().toString().equals(getString(R.string.wo_shenhezhong)) || tvFcrz.getText().toString().equals(getString(R.string.wo_yirenzheng))){
                     showToast(tvFcrz);
                     return;
                 }
@@ -358,9 +358,9 @@ public class XyzxFra extends TitleFragment implements View.OnClickListener, Even
     }
 
     private void showToast(TextView tv){
-        if (tv.getText().toString().equals("审核中"))
+        if (tv.getText().toString().equals(getString(R.string.wo_shenhezhong)))
             ToastUtil.show("正在审核中，请耐心等待");
-        else if (tv.getText().toString().equals("已认证"))
+        else if (tv.getText().toString().equals(getString(R.string.wo_yirenzheng)))
             ToastUtil.show("已完成认证，无需重复认证");
     }
 

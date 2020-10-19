@@ -55,7 +55,7 @@ public class MyConversationFragment extends ConversationFragment {
                                 .setCancelable(true)
                                 .setCanceledOnTouchOutside(true)
                                 .setText("充值会员更好沟通！")//内容
-                                .setPositive(getContext().getString(R.string.wo_queding), new View.OnClickListener() {
+                                .setPositive(getContext().getString(R.string.confirm), new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
                                         Bundle bundle = new Bundle();

@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.bean.BaseBean;
 import com.people.loveme.http.OkHttpHelper;
@@ -57,7 +58,7 @@ public class FindBackPasswordFra extends TitleFragment implements View.OnClickLi
 
     @Override
     public String getTitleName() {
-        return "忘记密码";
+        return HcbApp.self.getString(R.string.wo_wangjimima);
     }
 
     @Nullable
@@ -92,7 +93,7 @@ public class FindBackPasswordFra extends TitleFragment implements View.OnClickLi
                 String user_phone_number = etAccount.getText().toString().trim();
                 //验证电话号码不能为空
                 if (TextUtils.isEmpty(user_phone_number)) {
-                    ToastUtil.show("请输入手机号");
+                    ToastUtil.show(getString(R.string.phonenum));
                     return;
                 }
                 //验证手机号是否正确
@@ -151,7 +152,7 @@ public class FindBackPasswordFra extends TitleFragment implements View.OnClickLi
         String msgCode = etCode.getText().toString().trim();
         //验证电话号码不能为空
         if (TextUtils.isEmpty(user_phone_number)) {
-            ToastUtil.show("请输入手机号");
+            ToastUtil.show(getString(R.string.phonenum));
             return;
         }
         //验证手机号是否正确

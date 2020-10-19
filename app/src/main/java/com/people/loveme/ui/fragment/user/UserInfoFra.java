@@ -240,7 +240,7 @@ public class UserInfoFra extends TitleFragment implements View.OnClickListener, 
                     isSh = true;
                     shadowView.setVisibility(View.VISIBLE);
                     tvShz.setVisibility(View.VISIBLE);
-                    tvShz.setText("审核中");
+                    tvShz.setText(getString(R.string.wo_shenhezhong));
                     Picasso.with(getContext()).load(shBean.getSrc()).placeholder(R.mipmap.ic_logo).error(R.mipmap.ic_logo).into(ivHead);
                     if (!StringUtil.isEmpty(shBean.getSrc()))
                         SharePrefUtil.saveString(getContext(), AppConsts.HEAD, shBean.getSrc());
@@ -287,7 +287,7 @@ public class UserInfoFra extends TitleFragment implements View.OnClickListener, 
                         .setInputHint(getString(R.string.wo_tianxiedubai))//提示
                         .setInputCounterColor(getResources().getColor(R.color.txt_lv4))//最大字符数文字的颜色值
                         .autoInputShowKeyboard()//自动弹出键盘
-                        .setPositiveInput(mContext.getString(R.string.wo_queding), new OnInputClickListener() {
+                        .setPositiveInput(mContext.getString(R.string.confirm), new OnInputClickListener() {
                             @Override
                             public void onClick(String text, View v) {
                                 etSignature.setText(text);
@@ -308,9 +308,9 @@ public class UserInfoFra extends TitleFragment implements View.OnClickListener, 
                 break;
             case R.id.ll_sex:
                 final List<String> sexs = new ArrayList<>();
-                sexs.add(mContext.getString(R.string.wo_man));
-                sexs.add(mContext.getString(R.string.wo_wom));
-                StyledDialog.buildBottomItemDialog(sexs, mContext.getString(R.string.wo_quxiao), new MyItemDialogListener() {
+                sexs.add(mContext.getString(R.string.male));
+                sexs.add(mContext.getString(R.string.female));
+                StyledDialog.buildBottomItemDialog(sexs, mContext.getString(R.string.cancel), new MyItemDialogListener() {
                     @Override
                     public void onItemClick(CharSequence text, int position) {
                         tvSex.setText(sexs.get(position));
@@ -593,7 +593,7 @@ public class UserInfoFra extends TitleFragment implements View.OnClickListener, 
             new CircleDialog.Builder(act)
                     .setTitle("提示")
                     .setText("头像需审核通过后，方可使用！")//内容
-                    .setPositive(mContext.getString(R.string.wo_queding), new View.OnClickListener() {
+                    .setPositive(mContext.getString(R.string.confirm), new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
                             save();

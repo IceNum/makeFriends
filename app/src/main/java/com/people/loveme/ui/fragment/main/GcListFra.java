@@ -86,15 +86,15 @@ public class GcListFra extends LazyFragment implements View.OnClickListener, Tag
         topicList = new ArrayList<>();
         topic = new ArrayList<>();
         conditions = new ArrayList<>();
-        conditions.add(getString(R.string.wo_sex));
+        conditions.add(getString(R.string.gender));
         conditions.add(getString(R.string.wo_age));
         conditions.add(getString(R.string.wo_adress));
         conditions.add(getString(R.string.wo_xinyong));
 
         sexs = new ArrayList<>();
         sexs.add(getString(R.string.wo_buxian));
-        sexs.add(getString(R.string.wo_man));
-        sexs.add(getString(R.string.wo_wom));
+        sexs.add(getString(R.string.male));
+        sexs.add(getString(R.string.female));
 
         adapter = new GcAdapter(getContext(), list);
         mRecyclerView.setRefreshProgressStyle(ProgressStyle.BallSpinFadeLoader);
@@ -306,7 +306,7 @@ public class GcListFra extends LazyFragment implements View.OnClickListener, Tag
                 gcPopupWindow.showAsDropDown(flTiaojian);
                 break;
             case R.id.ll_sex:
-                SingleChooseDialog gcqkChooseDialog = new SingleChooseDialog(getContext(), getString(R.string.wo_sex), sexs, new SingleChooseDialog.OnItemClick() {
+                SingleChooseDialog gcqkChooseDialog = new SingleChooseDialog(getContext(), getString(R.string.gender), sexs, new SingleChooseDialog.OnItemClick() {
                     @Override
                     public void onItemClick(int position) {
                         if (position != 0)

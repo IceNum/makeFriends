@@ -469,7 +469,7 @@ public class UserHomeFra extends TitleFragment implements View.OnClickListener {
 
                     if (!StringUtil.isEmpty(bean.getData().getHeight())) {
                         height = bean.getData().getHeight();
-                        xzdt.append(mContext.getString(R.string.wo_shengao) + height + "cm,");
+                        xzdt.append(mContext.getString(R.string.height) + height + "cm,");
                     }
 
                     if (!StringUtil.isEmpty(bean.getData().getIncome())) {

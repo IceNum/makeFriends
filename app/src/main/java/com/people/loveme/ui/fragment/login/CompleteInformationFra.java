@@ -187,9 +187,9 @@ public class CompleteInformationFra extends TitleFragment implements View.OnClic
                 break;
             case R.id.ll_sex:
                 final List<String> sexs = new ArrayList<>();
-                sexs.add(mContext.getString(R.string.wo_man));
-                sexs.add(mContext.getString(R.string.wo_wom));
-                StyledDialog.buildBottomItemDialog(sexs, mContext.getString(R.string.wo_quxiao), new MyItemDialogListener() {
+                sexs.add(mContext.getString(R.string.male));
+                sexs.add(mContext.getString(R.string.female));
+                StyledDialog.buildBottomItemDialog(sexs, mContext.getString(R.string.cancel), new MyItemDialogListener() {
                     @Override
                     public void onItemClick(CharSequence text, int position) {
                         tvSex.setText(sexs.get(position));
@@ -228,7 +228,7 @@ public class CompleteInformationFra extends TitleFragment implements View.OnClic
                 break;
             case R.id.ll_sg:
                 final List<String> sg = Arrays.asList(getResources().getStringArray(R.array.shengao));
-                SingleChooseDialog sgChooseDialog = new SingleChooseDialog(mContext, mContext.getString(R.string.wo_shengao), sg, new SingleChooseDialog.OnItemClick() {
+                SingleChooseDialog sgChooseDialog = new SingleChooseDialog(mContext, mContext.getString(R.string.height), sg, new SingleChooseDialog.OnItemClick() {
                     @Override
                     public void onItemClick(int position) {
                         tvSg.setText(sg.get(position) + "cm");
