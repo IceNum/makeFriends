@@ -94,7 +94,7 @@ public class AttentListFra extends LazyFragment {
     private void showReport(final String uid) {
         String[] list = getResources().getStringArray(R.array.jblx);
         final List<String> reason = Arrays.asList(list);
-        ReasonDialog reasonDialog = new ReasonDialog(getContext(), "选择举报类型", reason, new ReasonDialog.OnItemClick() {
+        ReasonDialog reasonDialog = new ReasonDialog(getContext(),  getString(R.string.wo_select_jubao_type), reason, new ReasonDialog.OnItemClick() {
             @Override
             public void onItemClick(int position) {
                 report(reason.get(position), uid);

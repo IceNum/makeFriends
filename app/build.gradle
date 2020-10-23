@@ -99,8 +99,9 @@ dependencies {
     implementation 'com.contrarywind:Android-PickerView:4.1.6'
     //banner
     implementation 'cn.bingoogolapple:bga-banner:2.2.4@aar'
-    //刷新加载
-    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    //刷新加载 修改多语言
+//    implementation 'com.jcodecraeer:xrecyclerview:1.6.0'
+    implementation project(':xrecyclerview')
     //二维码扫描
     implementation 'com.mylhyl:zxingscanner:2.1.1'
     //分类

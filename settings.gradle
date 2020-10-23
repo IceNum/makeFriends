@@ -1,2 +1,2 @@
-include ':dialog'
+include ':dialog',':xrecyclerview'
 include ':app', ':snapupdowntimerview', ':CallKit', ':CallLib', ':IMKit', ':IMLib'

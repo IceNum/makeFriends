@@ -117,7 +117,6 @@
     <string name="umeng_socialize_sharetotwitter">分享到twitter</string>
     <string name="umeng_socialize_sharetolinkin">分享到领英</string>
 
-    <string name="share_title">سىرداش</string>
     <string name="share_des">مۇھەببەتلىك تۇرمۇشىڭىزنى باشلاڭ</string>
 
 
@@ -157,7 +156,7 @@
     <string name="wo_zhengzaiyuehui"> لايىق ئىزدەش</string>
     <string name="wo_zhaodaoyizhong"> كۈڭۈل ھەمرايىنى تېپىش</string>
     <string name="wo_lianaizhuangtai"> مۇھەببەتلىشىش ھالىتى .</string>
-    <string name="wo_renzhengzhuangtai">دەلىللەش ھالىتى :</string>
+    <string name="wo_renzhengzhuangtai">:دەلىللەش ھالىتى </string>
     <string name="wo_shenhezhong">دەلىللىنىۋاتىدۇ .</string>
     <string name="wo_yirenzheng">ئېتىراپ قىلىندى</string>
     <string name="wo_shenhefil">دەلىللەش مەغلۇب بۇلدى</string>
@@ -329,7 +328,6 @@
 <!--        <string name="umeng_socialize_sharetotwitter">分享到twitter</string>-->
 <!--        <string name="umeng_socialize_sharetolinkin">分享到领英</string>-->
 
-<!--        <string name="share_title">回眸</string>-->
 <!--        <string name="share_des">开启恋爱生活</string>-->
 
 <!--        <string name="select_huati">选择话题</string>-->

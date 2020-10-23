@@ -66,7 +66,7 @@ public class OtherHomeDongtaiAdapter extends BaseAdapter {
         if (!StringUtil.isEmpty(list.get(i).getTime()))
             holder.tvTime.setText( TimeUtil.friendlyPassTime(TimeUtil.String2Data(Long.parseLong(list.get(i).getTime()) * 1000)));
         if (!StringUtil.isEmpty(list.get(i).getZan()))
-            holder.tvZanNum.setText("赞  " + list.get(i).getZan());
+            holder.tvZanNum.setText("ئېسىل  " + list.get(i).getZan());
 
         if (!StringUtil.isEmpty(list.get(i).getAddress())) {
             holder.tvAddress.setVisibility(View.VISIBLE);

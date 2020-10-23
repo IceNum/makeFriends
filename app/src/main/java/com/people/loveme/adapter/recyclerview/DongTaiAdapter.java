@@ -55,7 +55,7 @@ public class DongTaiAdapter extends RecyclerView.Adapter<DongTaiAdapter.ViewHold
         if (!StringUtil.isEmpty(list.get(position).getTime()))
             holder.tvTime.setText(TimeUtil.friendlyPassTime(TimeUtil.String2Data(Long.parseLong(list.get(position).getTime()) * 1000)));
         if (!StringUtil.isEmpty(list.get(position).getZan()))
-            holder.tvZanNum.setText("赞  " + list.get(position).getZan());
+            holder.tvZanNum.setText("ئېسىل  " + list.get(position).getZan());
 
 
         if (!StringUtil.isEmpty(list.get(position).getImages())) {

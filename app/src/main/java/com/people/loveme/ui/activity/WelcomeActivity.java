@@ -162,7 +162,7 @@ public class WelcomeActivity extends BaseFragAct {
                 uiHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        tvTime.setText("(" + (downCount + 1) + "s)" + "跳过");
+                        tvTime.setText("(" + (downCount + 1) + "s)" + "ئاتلاش");
                     }
                 });
 

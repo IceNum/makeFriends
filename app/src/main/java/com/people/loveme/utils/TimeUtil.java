@@ -20,7 +20,7 @@ public class TimeUtil {
     public final static String DATE_FORMAT2 = "yyyy/MM/dd";
 
     private final static String[] weekCN = {
-            "周日", "周一", "周二", "周三", "周四", "周五", "周六",
+            "يەكشەنبە", "دۈشەنبە", "سەيشەنبە", "چارشەنبە", "پەيشەنبە", "جۈمە", "شەنبە",
     };
 
     public static String chineseWeekDayToday() {
@@ -152,11 +152,11 @@ public class TimeUtil {
             case 0:
                 return formatDate(date, "HH:mm");
             case 1:
-                return "昨天 " + formatDate(date, "HH:mm");
+                return "تۈنۈگۈن " + formatDate(date, "HH:mm");
             case 2:
-                return "前天 " + formatDate(date, "HH:mm");
+                return "ئۈلۈشكۈن " + formatDate(date, "HH:mm");
             default:
-                return formatDate(date, "yyyy年MM月dd日 HH:mm");
+                return formatDate(date, "yyyyيىلMMئاينىڭddكۈنى HH:mm");
         }
     }
 
@@ -165,36 +165,36 @@ public class TimeUtil {
             case 0:
                 return formatDate(date, "HH:mm");
             case 1:
-                return "明天 " + formatDate(date, "HH:mm");
+                return "ئەتە " + formatDate(date, "HH:mm");
             case 2:
-                return "后天 " + formatDate(date, "HH:mm");
+                return "ئۆگۈن " + formatDate(date, "HH:mm");
             default:
-                return formatDate(date, "yyyy年MM月dd日 HH:mm");
+                return formatDate(date, "yyyyيىلMMئاينىڭddكۈنى HH:mm");
         }
     }
 
     @SuppressWarnings("deprecation")
     public static String recentTime(long passed) {
         if (passed < 60 * 1000) {
-            return "刚刚";
+            return "ھازىرلا";
         }
         passed /= 60 * 1000;
         if (passed < 60) {
-            return passed + "分钟前";
+            return passed + "مىنۇت ";
         }
         passed /= 60;
         if (passed < 24) {
-            return passed + "小时前";
+            return passed + "سائەت بۇرۇن";
         }
         passed /= 24;
         if (passed < 30) {
-            return passed + "天前";
+            return passed + "كۈن بۇرۇن";
         }
         passed /= 30;
         if (passed < 12) {
-            return passed + "个月前";
+            return passed + "ئاي بۇرۇن";
         }
-        return passed / 12 + "年前";
+        return passed / 12 + "يىل بۇرۇن";
     }
 
     /**

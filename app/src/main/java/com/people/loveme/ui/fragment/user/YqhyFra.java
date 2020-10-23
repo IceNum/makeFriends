@@ -114,7 +114,7 @@ public class YqhyFra extends TitleFragment implements View.OnClickListener {
                 ActivitySwitcher.startFragment(act, WebFra.class, bundle);
                 break;
             case R.id.tv_share:
-                new ShareUtils(act).share(Url.shareUrl, getString(R.string.share_title), getString(R.string.share_des));
+                new ShareUtils(act).share(Url.shareUrl, getString(R.string.app_name), getString(R.string.share_des));
                 break;
         }
     }

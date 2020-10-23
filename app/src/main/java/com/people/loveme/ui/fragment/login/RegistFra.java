@@ -249,13 +249,12 @@ public class RegistFra extends TitleFragment implements View.OnClickListener {
         if (!StringUtil.isEmpty(code))
             params.put("code", code);
 
-        Log.e("11111","user_latitude ==== ");
         mOkHttpHelper.post(getContext(), Url.register, params, new SpotsCallBack<BaseBean>(getContext()) {
             @Override
             public void onSuccess(Response response, BaseBean baseBean) {
                 Log.e("11111","loginBean ==== " + response.body().toString());
                 if (baseBean.getCode() == 1) {
-                    ToastUtil.show("注册成功！");
+                    ToastUtil.show("تىزىملىتىش مۇۋەپپىقىيەتلىك！");
                     SharePrefUtil.saveBoolean(mContext, AppConsts.ISGUIDE, false);
                     eventCenter.sendType(EventCenter.EventType.EVT_RGIST);
                     act.finishSelf();

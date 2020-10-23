@@ -183,7 +183,7 @@ public class GcAdapter extends RecyclerView.Adapter<GcAdapter.ViewHolder> {
         } else
             holder.ivZan.setImageResource(R.mipmap.zan);
 
-        holder.tvZanNum.setText("赞 " + list.get(position).getZan());
+        holder.tvZanNum.setText("ئېسىل " + list.get(position).getZan());
 
         holder.llZan.setOnClickListener(new View.OnClickListener() {
             @Override

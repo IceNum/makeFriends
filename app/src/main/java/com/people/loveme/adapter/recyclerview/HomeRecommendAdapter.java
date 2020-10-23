@@ -153,7 +153,7 @@ public class HomeRecommendAdapter extends RecyclerView.Adapter<HomeRecommendAdap
         }
 
         if (!ListUtil.isEmpty(list.get(position).getDongtai()))
-            holder.tvZanNum.setText("赞 " + list.get(position).getDongtai().get(0).getZan());
+            holder.tvZanNum.setText("ئېسىل " + list.get(position).getDongtai().get(0).getZan());
 
         holder.llZan.setOnClickListener(new View.OnClickListener() {
             @Override

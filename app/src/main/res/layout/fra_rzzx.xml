@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:drawablePadding="10dp"
             android:gravity="right"
-            android:text="基本信息"
+            android:text="@string/wo_jibenziliao"
             android:textColor="@color/txt_lv7"
             android:textSize="14sp" />
 

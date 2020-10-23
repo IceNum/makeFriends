@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.people.loveme.AppConsts;
-import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.bean.BaseBean;
 import com.people.loveme.http.OkHttpHelper;

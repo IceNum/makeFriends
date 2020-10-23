@@ -248,7 +248,7 @@ public class OtherHomePageFra extends TitleFragment implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.iv_share:
-                new ShareUtils(act).share(Url.shareUrl, getString(R.string.share_title), getString(R.string.share_des));
+                new ShareUtils(act).share(Url.shareUrl, getString(R.string.app_name), getString(R.string.share_des));
                 break;
             case R.id.iv_more:
                 doPeople();
@@ -262,6 +262,7 @@ public class OtherHomePageFra extends TitleFragment implements View.OnClickListe
                 ActivitySwitcher.startFragment(act, UserDetailFra.class, bundle);
                 break;
             case R.id.tv_dzh:
+                Log.e("loveState = " , "====loveState====" + loveState);
                 if (!loveState.equals("0")) {
                     new ReLianDialog(getContext()).show();
                     return;
@@ -530,7 +531,7 @@ public class OtherHomePageFra extends TitleFragment implements View.OnClickListe
     private void doPeople() {
         String[] list = getResources().getStringArray(R.array.dopeople);
         final List<String> reason = Arrays.asList(list);
-        ReasonDialog reasonDialog = new ReasonDialog(getContext(), "选择操作", reason, new ReasonDialog.OnItemClick() {
+        ReasonDialog reasonDialog = new ReasonDialog(getContext(),  "选择操作", reason, new ReasonDialog.OnItemClick() {
             @Override
             public void onItemClick(int position) {
                 if (position == 1)
@@ -546,7 +547,7 @@ public class OtherHomePageFra extends TitleFragment implements View.OnClickListe
     private void showReport() {
         String[] list = getResources().getStringArray(R.array.jblx);
         final List<String> reason = Arrays.asList(list);
-        ReasonDialog reasonDialog = new ReasonDialog(getContext(), "选择举报类型", reason, new ReasonDialog.OnItemClick() {
+        ReasonDialog reasonDialog = new ReasonDialog(getContext(), getString(R.string.wo_select_jubao_type), reason, new ReasonDialog.OnItemClick() {
             @Override
             public void onItemClick(int position) {
                 report(reason.get(position));
@@ -752,7 +753,7 @@ public class OtherHomePageFra extends TitleFragment implements View.OnClickListe
                         ivIsVip.setImageResource(R.mipmap.vip_item_no);
                     if (!StringUtil.isEmpty(bean.getData().getLove_status())) {
                         loveState = bean.getData().getLove_status();
-                        switch (bean.getData().getLove_status()) {
+                        switch (loveState) {
                             case "0":
 
                                 break;

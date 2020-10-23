@@ -47,7 +47,7 @@
             android:drawableLeft="@mipmap/zan"
             android:drawablePadding="5dp"
             android:textColor="@color/txt_lv4"
-            android:text="赞   0"/>
+            android:text="ئېسىل   0"/>
         <TextView
             android:id="@+id/tv_delete"
             android:layout_width="wrap_content"

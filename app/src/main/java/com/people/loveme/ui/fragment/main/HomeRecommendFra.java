@@ -195,7 +195,7 @@ public class HomeRecommendFra extends CachableFrg implements View.OnClickListene
     private void showReport() {
         String[] list = getResources().getStringArray(R.array.jblx);
         final List<String> reason = Arrays.asList(list);
-        ReasonDialog reasonDialog = new ReasonDialog(getContext(), "选择举报类型", reason, new ReasonDialog.OnItemClick() {
+        ReasonDialog reasonDialog = new ReasonDialog(getContext(),  getString(R.string.wo_select_jubao_type), reason, new ReasonDialog.OnItemClick() {
             @Override
             public void onItemClick(int position) {
                 report(reason.get(position));

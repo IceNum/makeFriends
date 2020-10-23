@@ -1,8 +1,8 @@
 <resources>
-    <string name="dialogutil_btn_sure">确定</string>
-    <string name="dialogutil_btn_cancel">取消</string>
-    <string name="dialogutil_btn_neutral">再看看</string>
-    <string name="dialogutil_loading">加载中</string>
-    <string name="dialogutil_uploading">上传中</string>
-    <string name="dialogutil_downloading">下载中</string>
+    <string name="dialogutil_btn_sure">جەزىملەش</string>
+    <string name="dialogutil_btn_cancel">بىكارلاش</string>
+    <string name="dialogutil_btn_neutral">يەنە قاراپ باقاي</string>
+    <string name="dialogutil_loading">يۈكلىنىۋاتىدۇ</string>
+    <string name="dialogutil_uploading">يوللىنىۋاتىدۇ</string>
+    <string name="dialogutil_downloading">چۈشۈرىلىۋاتىدۇ</string>
 </resources>

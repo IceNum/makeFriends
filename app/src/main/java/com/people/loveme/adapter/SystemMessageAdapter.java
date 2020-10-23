@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.people.loveme.HcbApp;
 import com.people.loveme.R;
 import com.people.loveme.adapter.recyclerview.AgreementsAdapter;
 import com.people.loveme.bean.MessageBean;

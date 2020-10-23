@@ -197,9 +197,9 @@ public class UserInfoFra extends TitleFragment implements View.OnClickListener, 
                         etName.setText(bean.getData().getNickname());
                     if (!StringUtil.isEmpty(bean.getData().getSex())) {
                         if (bean.getData().getSex().equals("1"))
-                            tvSex.setText("男");
+                            tvSex.setText(getString(R.string.male));
                         else
-                            tvSex.setText("女");
+                            tvSex.setText(getString(R.string.female));
                     }
                     if (!StringUtil.isEmpty(bean.getData().getCity()))
                         tvCity.setText(bean.getData().getCity());

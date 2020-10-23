@@ -267,7 +267,7 @@ public class LoginFra extends TitleFragment implements View.OnClickListener, Eve
             userIcon = map.get("iconurl");//头像
             thirdUid = map.get("uid");//第三方平台id
             String gender = map.get("gender");
-            if (gender.equals("男"))
+            if (gender.equals(getString(R.string.male)))
                 sex = "1";
             else
                 sex = "2";

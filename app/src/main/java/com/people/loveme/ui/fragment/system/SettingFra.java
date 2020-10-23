@@ -3,6 +3,7 @@ package com.people.loveme.ui.fragment.system;
 import android.Manifest;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -120,6 +121,8 @@ public class SettingFra extends TitleFragment implements View.OnClickListener {
             @Override
             public void onSuccess(Response response, UpdataBean updataBean) {
                 try {
+                    Log.e("======","AppUtils.getVersionCode(getContext()) = " + AppUtils.getVersionCode(getContext())
+                            + "  Integer.parseInt(updataBean.getVersion()) = " + Integer.parseInt(updataBean.getVersion()));
                     if (AppUtils.getVersionCode(getContext()) < Integer.parseInt(updataBean.getVersion())) {
                         updateAddress = updataBean.getUpdatefile();
                         updateView.setVisibility(View.VISIBLE);
